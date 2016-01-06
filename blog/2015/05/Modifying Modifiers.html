@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Modifying Modifiers.</title>
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" title="mainStyle" href = "/wildefyr.css">
+    <meta charset=UTF-8>
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div id="header">
+        <p>
+          &nbsp;&nbsp;<a href="/">~/</a>&nbsp;&nbsp;
+          <a href="/about">ABOUT</a>&nbsp;&nbsp;
+          <a href="/blog">BLOG</a>&nbsp;&nbsp;
+          <a href="https://github.com/wildefyr/">CODE</a>&nbsp;&nbsp;
+          <a href="/contact">CONTACT</a>&nbsp;&nbsp;
+        </p>
+      </div>
+
+      <div id="body">
+
+        <div id="wrapperTitle">
+          <p>Modifying Modifiers.</p>
+        </div>
+
+        <div id="wrapperArcticleGreen">
+            <p>2015-05-29<p>
+
+            <p>
+            So, you've got your brand new lightweight window manager going.
+            Chances are, you're using at least some keyboard hotkeys to manage
+            it, whether it's a tiling, floating or dynamic window manager.
+            Before trying to find shortcuts and combinations that work for you
+            and your workflow, I recommend looking at rebinding the modifier
+            keys around your keyboard.
+            </p>
+
+            <p>
+            A lightweight solution I've found to doing this is with xmodmap.
+            While it allows remapping of keys to create your own layout when
+            using X, it also allows you to change the modifiers. To start,
+            create a file with your favourite text editor and put this at the
+            the top of the file:
+            </p>
+
+<pre><code>
+clear lock
+clear control
+clear mod1
+clear mod2
+clear mod3
+clear mod4
+clear mod5
+
+</code></pre>
+
+            <p>
+            Next we can choose what keys we want represented by mod[1-5] and
+            add our control keys back:
+            </p>
+
+<pre><code>
+add control = Control_L Control_R
+add mod1    = Alt_L
+add mod2    = Alt_R
+add mod3    = Hyper_L
+add mod4    = Super_L Super_R
+add mod5    = Num_Lock
+
+keycode 37  = Hyper_L
+keycode 66  = Control_L
+keycode 105 = Control_L
+keycode 133 = Control_L
+
+</code></pre>
+
+            <p>
+            Unforuntely due to my keyboard (QuickFire TK) I need Num_Lock to be
+            bound else I can't switch between my number pad and the more useful
+            functions like the insert and delete keys. My examples also show
+            where I bind Hyper_L and Control_L (Hyper_L goes to the normal
+            position of Control_L and Control_L replaces CapsLock and a couple
+            of other keys), but on other systems the keycodes might vary.
+            </p>
+
+            <p>
+            For future reference, you can save all your current keybindings
+            into a file like so:
+            </p>
+
+            <pre><code>$ xmodmap -pke > keybindings.txt </code></pre>
+
+            <p>
+            Save the file and put it in a location of your choosing. Now to
+            load it everytime you load into X, just place the following into
+            your ~/.xinitrc:
+            </P>
+
+            <pre><code>xmodmap /path/to/file</code></pre>
+
+            <p>
+            After you've done all this, you can then either use your window
+            manager config file to bind the modifiers to combinations, or run a
+            separate keybind program like sxhkd to use your now remapped
+            modifiers. One tiny limitation I've found is that X apparently only
+            has support for a maximum of 5 modifier keys, but that, at least
+            for me, covers all of my modifiers.
+            </p>
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+      </div>
+
+    </div>
+  </body>
+</html>
