@@ -37,11 +37,11 @@ add our control keys back:
     keycode 105 = Control_L
     keycode 133 = Control_L
 
-Unfortunately due to my keyboard (QuickFire TK) I need Num_Lock to be
+Unfortunately due to my keyboard (QuickFire TK) I need Num\_Lock to be
 bound else I can't switch between my number pad and the more useful
 functions like the insert and delete keys. My examples also show
-where I bind Hyper_L and Control_L (Hyper_L goes to the normal
-position of Control_L and Control_L replaces CapsLock and a couple
+where I bind Hyper\_L and Control\_L (Hyper\_L goes to the normal
+position of Control\_L and Control\_L replaces CapsLock and a couple
 of other keys), but on other systems the keycodes might vary.
 
 
