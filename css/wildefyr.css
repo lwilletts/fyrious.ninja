@@ -1,0 +1,219 @@
+/* CSS WILDEFYR.NET */
+
+html, body {
+    background-image: url("/media/noisier_net.png");
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    min-height: 95%;
+}
+
+#header {
+    font: sans-serif;
+    position: relative;
+    text-align: center;
+    background-color: #14161A;
+    border-bottom: 1px solid #737373;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#content  {
+    font: sans-serif;
+    width: 100%;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 910px;
+
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+#textWrap {
+    margin-left: 1em;
+    padding-right: 1em;
+}
+
+#arcticleTitle {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #14161A;
+    box-shadow: 5px 5px 20px 1px #000;
+    border: 1px solid #D7D7D7;
+    padding: 10px;
+    text-align: left;
+}
+
+#arcticleWhite {
+    display: block;
+    background-color: #14161A;
+    box-shadow: 5px 5px 20px 1px #000;
+    border: 1px solid #D7D7D7;
+    padding: 10px;
+    text-align: left;
+}
+
+#startOne {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 180px;
+    background-color: #14161A;
+    box-shadow: 5px 5px 20px 1px #000;
+    border: 1px solid #D7D7D7;
+    padding: 10px;
+    text-align: left;
+    font: sans-serif;
+    font-size: 1em;
+}
+
+#footer {
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    border-top: 1px solid #737373;
+    width: 100%;
+    font: sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #FFF;
+    font: inherit;
+    font-size: 0.9em;
+}
+
+h1 {
+    color: #FFF;
+    font: inherit;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #FFF;
+    font: inherit;
+    font-size: 1.1em;
+}
+
+h3 {
+    color: #FFF;
+    font: inherit;
+    font-size: 1.0em;
+}
+
+h4 {
+    color: #FFF;
+    font: inherit;
+    font-size: inherit;
+}
+
+h5 {
+    color: #FFF;
+    font: inherit;
+    font-size: 0.8em;
+}
+
+h6 {
+    text-align: center;
+    color: #FFF;
+    font: inherit;
+    font-size: 0.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #737373;
+}
+
+/* visited link */
+a:visited {
+    color: #2F4748;
+}
+
+/* selected link */
+a:active {
+    color: #2F4748;
+}
+
+/* mouse over link */
+a:hover {
+    color: #B23450;
+}
+
+ul {
+    color: #FFF;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 2em;
+    font-size: 1em;
+}
+
+li:before {
+    color: #FFF;
+    content: "- ";
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 94%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+video {
+    width: 94%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+blockquote {
+    background-color: #222;
+    color: #FFF;
+    border-left: 5px solid #B23450;
+    padding-left: 10px;
+    box-shadow: 5px 5px 10px 1px #000;
+    font: inherit;
+    font-size: 1em;
+    font-style: italic;
+}
+
+code, pre {
+    display: inline-block;
+    min-width: 200px;
+    color: #D7D7D7;
+    background-color: #111;
+    border-left: 5px solid #2E8B57;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: monospace;
+    font-size: 1em;
+}
+
+pre code:before, pre code:after {
+    content: none;
+}
+
+pre {
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+pre code {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #111;
+}

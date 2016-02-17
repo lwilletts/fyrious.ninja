@@ -1,3 +1,3 @@
-# wildserver
+# wildefyr.github.io
 
-An opensource webserver that runs on Apache. Please note I am not employed as a web developer.
+Deployed using nginx on domains that I own, notably: wildefyr.net
