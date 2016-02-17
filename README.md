@@ -1,3 +1,3 @@
-# wildefyr.github.io
+# wildefyr.net
 
-Deployed using nginx on domains that I own, notably: wildefyr.net
+Deployed using nginx on [wildefyr.net](wildefyr.net).
