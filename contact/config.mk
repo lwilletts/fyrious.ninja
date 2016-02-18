@@ -1,5 +1,2 @@
-MD     = /usr/bin/markdown
-NAME   = contact
-PREFIX = /builds/wildefyr.github.io/contact
-
+MD    = /usr/bin/markdown
 PAGES = index.html
