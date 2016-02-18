@@ -9,9 +9,10 @@ clean:
 
 .SUFFIXES: .md .html
 
-HEADER = head.html
-FOOTER = foot.html
+HEADER = ../html/head.html
+TITLE  = title.html
+FOOTER = ../html/foot.html
 
 .md.html: $(HEADER) $(FOOTER)
 	@echo "MARKDOWN: `basename $@`"
-	@$(MD) $< | cat $(HEADER) - $(FOOTER) > $@
+	@$(MD) $< | cat $(HEADER) $(TITLE) - $(FOOTER) > $@
