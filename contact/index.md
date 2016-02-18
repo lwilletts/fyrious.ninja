@@ -5,5 +5,6 @@ A query on IRC will get my attention the fastest usually:
 * Email: [me@wildefyr.net](mailto:me@wildefyr.com)
 
 
-I also have a teamspeak server available on this domain that I may or may not
-be on depending on the time of day.
+I also have a teamspeak server available on this
+[domain](ts3server://wildefyr.net) that I may or may not be on depending on
+the time of day.
