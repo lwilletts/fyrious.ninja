@@ -1,5 +1,6 @@
 MD       = /usr/bin/markdown
 PAGES    = index.html start/index.html
+SUBDIRS  = blog contact
 
 .PHONY: all check clean site
 
@@ -10,12 +11,14 @@ check:
 
 clean:
 	rm -f $(PAGES)
-	$(MAKE) -C blog clean
-	$(MAKE) -C contact clean
+	for dir in $(SUBDIRS); do \
+		$(MAKE) -C $$dir clean; \
+	done
 
 site:
-	$(MAKE) -C blog
-	$(MAKE) -C contact
+	for dir in $(SUBDIRS); do \
+		$(MAKE) -C $$dir; \
+	done
 
 .SUFFIXES: .md .html .xml
 
