@@ -13,11 +13,12 @@ BASEURL="http://wildefyr.net"
 
 cat << EOF
 <?xml version='1.0'?>
-<rss version='2.0'>
+<rss version='2.0' xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>wildefyr.net/blog</title>
 <description>Musings on unix.</description>
 <link>${BASEURL}/blog</link>
+<atom:link href="${BASEURL}/blog/feed.xml" rel="self" />
 EOF
 
 postNum=$(wc -l < "$FILE")
