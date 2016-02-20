@@ -2,7 +2,7 @@ MD       = /usr/bin/markdown
 PAGES    = index.html start/index.html
 SUBDIRS  = blog
 
-.PHONY: all check clean site echo build
+.PHONY: all check clean site new build
 
 all: site $(PAGES)
 
@@ -22,10 +22,10 @@ site:
 		$(MAKE) -C $$dir; \
 	done
 
-echo:
-	@echo
+new:
+	@./blog/post.sh
 
-build: clean echo all
+build: clean all
 
 .SUFFIXES: .md .html .xml
 
