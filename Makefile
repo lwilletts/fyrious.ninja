@@ -1,6 +1,6 @@
 MD       = /usr/bin/markdown
 PAGES    = index.html start/index.html
-SUBDIRS  = blog contact
+SUBDIRS  = blog
 
 .PHONY: all check clean site
 
