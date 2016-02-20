@@ -1,35 +1,63 @@
 /* CSS WILDEFYR.NET */
 
+@import "bourbon";
+
 html, body {
     background-image: url("/media/noisier_net.png");
     height: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 #wrap {
-    min-height: 95%;
+    min-height: 89%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header {
     font: sans-serif;
-    position: relative;
     text-align: center;
-    background-color: #14161A;
-    border-bottom: 1px solid #737373;
-    margin-bottom: 5px;
-    padding: 5px;
 }
 
-#content  {
-    font: sans-serif;
-    width: 100%;
-    margin: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 910px;
+#headerList {
+    max-width: 100%;
+    padding-right: 3em;
+}
 
-    padding-bottom: 50px;
+#headerList ul {
+    list-style-type: none;
+}
+
+#headerList li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#headerList li a {
+    padding: 10px 20px;
+    background-color: #14161A;
+    border: 2px solid #737373;
+    color: #D7D7D7;
+    transition: all .3s;
+}
+
+#headerList a:hover {
+    border: 2px solid #D7D7D7;
+    transition: all .4s;
+}
+
+#headerList h3 {
+    font: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 2em;
+}
+
+#content {
+    font: sans-serif;
+    margin-top: 40px;
+    /* overflow: auto; */
 }
 
 #textWrap {
@@ -52,51 +80,55 @@ html, body {
     background-color: #14161A;
     box-shadow: 5px 5px 20px 1px #000;
     border: 1px solid #D7D7D7;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: left;
 }
 
-#startOne {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    max-width: 180px;
-    background-color: #14161A;
-    box-shadow: 5px 5px 20px 1px #000;
-    border: 1px solid #D7D7D7;
-    padding: 10px;
-    text-align: left;
-    font: sans-serif;
+#arcticleWhite ul {
+    color: #FFF;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 2em;
     font-size: 1em;
+}
+
+#arcticleWhite li:before {
+    color: #FFF;
+    content: "- ";
+}
+
+#arcticleWhite li {
+    list-style: none;
 }
 
 #footer {
     position: relative;
-    margin-top: -70px;
-    height: 50px;
-    clear: both;
-    border-top: 1px solid #737373;
-    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: -20px;
     font: sans-serif;
     text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
 }
 
 #footerBox {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 455px;
     background-color: #14161A;
     box-shadow: 5px 5px 20px 1px #000;
-    border: 1px solid #D7D7D7;
+    border: 1px solid #737373;
+    padding: 0 10px;
+    clear: both;
 }
 
 p {
     color: #FFF;
     font: inherit;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 h1 {
@@ -114,7 +146,7 @@ h2 {
 h3 {
     color: #FFF;
     font: inherit;
-    font-size: 1.0em;
+    font-size: 1.2em;
 }
 
 h4 {
@@ -140,40 +172,17 @@ a {
     text-decoration: none;
 }
 
-a:link {
+a:link, a:visited {
     color: #737373;
 }
 
-/* visited link */
-a:visited {
-    color: #737373;
-}
-
-/* selected link */
 a:active {
     color: #2F4748;
 }
 
-/* mouse over link */
 a:hover {
     color: #B23450;
-}
-
-ul {
-    color: #FFF;
-    list-style-type: none;
-    margin: 0px;
-    padding-left: 2em;
-    font-size: 1em;
-}
-
-li:before {
-    color: #FFF;
-    content: "- ";
-}
-
-li {
-    list-style: none;
+    transition: all .2s;
 }
 
 img {
@@ -205,26 +214,24 @@ blockquote {
 
 code, pre {
     display: inline-block;
-    min-width: 200px;
     color: #D7D7D7;
     background-color: #111;
-    border-left: 5px solid #2E8B57;
-    padding-left: 10px;
-    padding-right: 10px;
     font: monospace;
     font-size: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-pre code:before, pre code:after {
-    content: none;
+code {
+    border: 1px solid #111;
 }
 
 pre {
     box-shadow: 1px 1px 10px 1px #000;
+    border-left: 5px solid #2E8B57;
+    min-width: 250px;
 }
 
-pre code {
-    padding-left: 5px;
-    padding-right: 5px;
-    border: 1px solid #111;
+pre code:before {
+    content: none;
 }
