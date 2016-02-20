@@ -4,8 +4,8 @@ Welcome to my {personal} website. Enjoy your stay.
 
 I'm a 20 year old linux hobbyist. I like messing around with Linux
 distributions and systems deployment. I'm quite proficient with shell
-scripting and it wherever I can. This website for example is built with some
-simple shell scripts and Makefiles, without having to use any new-fangled
+scripting and use it whenever I can. This website for example is built with
+some simple shell scripts and Makefiles, without having to use any new-fangled
 javascript framework. Minimalism is best.
 
     printf '%\n' "cool stuff and people"
