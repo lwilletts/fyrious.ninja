@@ -2,23 +2,30 @@ MD       = /usr/bin/markdown
 PAGES    = index.html start/index.html
 SUBDIRS  = blog
 
-.PHONY: all check clean site
+.PHONY: all check clean site echo build
 
-all: $(PAGES) site
+all: site $(PAGES)
 
 check:
 	@./check.sh
 
 clean:
+	@echo "Cleaning: `pwd`"
 	rm -f $(PAGES)
 	for dir in $(SUBDIRS); do \
 		$(MAKE) -C $$dir clean; \
 	done
 
 site:
+	@echo "Building: `pwd`"
 	for dir in $(SUBDIRS); do \
 		$(MAKE) -C $$dir; \
 	done
+
+echo:
+	@echo
+
+build: clean echo all
 
 .SUFFIXES: .md .html .xml
 
