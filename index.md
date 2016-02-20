@@ -18,7 +18,6 @@ A query on IRC will get my attention the fastest usually:
 I also have a teamspeak server available on this
 [domain](ts3server://wildefyr.net) that I may or may not be on depending on
 the time of day.
->>>>>>> 27cbb618952cb7867b00f513452e06dca4a2cb6c
 
     printf '%\n' "cool stuff and people"
 
