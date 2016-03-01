@@ -99,6 +99,21 @@ html, body {
     list-style: none;
 }
 
+#arcticleWhite table {
+    color: #D7D7D7;
+    font-size: 85%;
+    font: monospace;
+    box-shadow: 1px 1px 10px 1px #000;
+    border-left: 5px solid #2E8B57;
+    display: inline-block;
+    background-color: #111;
+    text-align: left;
+}
+
+#arcticleWhite td {
+    padding-left: 5px;
+}
+
 #footer {
     position: relative;
     margin-top: 20px;
