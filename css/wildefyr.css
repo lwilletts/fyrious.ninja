@@ -6,7 +6,6 @@ html, body {
 }
 
 #wrap {
-    min-height: 89%;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -68,7 +67,7 @@ html, body {
     margin-bottom: 20px;
     background-color: #14161A;
     box-shadow: 5px 5px 20px 1px #000;
-    border: 1px solid #D7D7D7;
+    border: 1px solid #737373;
     padding: 10px;
     text-align: left;
 }
@@ -112,26 +111,19 @@ html, body {
 }
 
 #footer {
-    position: relative;
     margin-top: 20px;
-    margin-bottom: 20px;
     font: sans-serif;
-    text-align: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
 }
 
 #footerBox {
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+    float: right;
     background-color: #14161A;
     box-shadow: 5px 5px 20px 1px #000;
     border: 1px solid #737373;
     padding: 0 10px;
-    clear: both;
+    text-align: center;
 }
 
 p {
