@@ -49,4 +49,4 @@ cat << EOF > "${post}.md"
 
 EOF
 
-vim "${post}.md"
+$EDITOR "${post}.md"
