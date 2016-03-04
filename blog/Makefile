@@ -1,16 +1,16 @@
 include config.mk
 
-.PHONY: all clean
+.PHONY: all feed clean
 
-all: $(PAGES) $(FEEDS)
+all: feed $(PAGES)
 
 clean:
 	rm -f $(PAGES) $(FEEDS)
 
 .SUFFIXES: .md .html .xml
 
-$(FEEDS): index.md
-	./feeds.sh $< > $@
+feed:
+	@./feeds.sh index.md
 
 .md.html:
 	@echo "MARKDOWN: `basename $@`"
