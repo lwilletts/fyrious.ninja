@@ -1,5 +1,6 @@
 d:w3m
 d:fann
+d:nvidia-sdk
 d:connman
 d:lm-sensors
 d:nginx
@@ -7,6 +8,7 @@ d:udftools
 d:wmutils-opt
 d:iucode-tool
 d:transset-df
+d:ffmpeg
 d:winetricks
 d:openconnect
 d:mps-youtube
@@ -44,6 +46,8 @@ f:62211dbd022906a00e9c519a53716af8:fann/Added-const.patch
 f:d41d8cd98f00b204e9800998ecf8427e:fann/.footprint
 f:f7c1772da5541904a2d4366c7bfeded7:fann/Pkgfile
 f:e4ba627d77a5056de7047261826dbdb8:fann/Added-type-conversion-and-const.patch
+f:09796c9bb3e7d222c39c8cc3bc1e4537:nvidia-sdk/.md5sum
+f:4be81d7d31cf3a3e5f16c2cfc3d2dd3e:nvidia-sdk/Pkgfile
 f:02efc36d9bdead6124a71dc542d5ed28:connman/.md5sum
 f:c9eb4fd0beb8d3df9f25b57152752c4c:connman/.footprint
 f:e80e712dba80d4d4da42f11c9f6dab3b:connman/Pkgfile
@@ -75,6 +79,9 @@ f:02b84e8821d7f06700b4f4f5e937067d:iucode-tool/Pkgfile
 f:892dd2de12bb1ca95d27258e2ddb0565:transset-df/.md5sum
 f:338de7dd9e860ab12ba3c528ba77cc79:transset-df/.footprint
 f:79bca1954305743351bd71b203261fef:transset-df/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
+f:c2f41dba89662f98f7e6e8a908c21f68:ffmpeg/.footprint
+f:805bb67d37a5bc9735cc96e5e161fcc7:ffmpeg/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:winetricks/.md5sum
 f:a55aa39ea068a214b3fb39d8e2f3ff48:winetricks/.footprint
 f:6a9a33b702f90030363dca58de86208f:winetricks/Pkgfile
@@ -96,7 +103,7 @@ f:4adbb7f135f375ad7932693aa3ce81b4:mpvc/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:cava/.md5sum
 f:a429ee17bb7d60405edd60409c71ae65:cava/.footprint
 f:dc1829ef8f56ed98e30b01ebd26d8f9e:cava/Pkgfile
-f:ffb3762d1610211ef6e8410e812442e8:README.md
+f:50b0258e53316d0067dbbe93abc6775f:README.md
 f:e23e33b8b19b7ee837e310fd56e4d33b:setuptools/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:setuptools/.footprint
 f:0b5f95f66fbc960b054e1b7751f34f9a:setuptools/Pkgfile
@@ -128,6 +135,7 @@ f:c07e3c80de9d895912725a591c87022e:youtube-upload/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.footprint
 f:59887367e491c14935f82c32edb90b91:terminibbles/Pkgfile
+f:94f897ed9f0760ac422963e404f7b61b:wildefyr.git
 f:d41d8cd98f00b204e9800998ecf8427e:vimpager/.md5sum
 f:d09d35b662390070db849ba0967a1a64:vimpager/.footprint
 f:71cfab70969a0254b013581c89cc5576:vimpager/Pkgfile
