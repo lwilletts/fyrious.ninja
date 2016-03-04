@@ -14,6 +14,7 @@ ports:
 
 media:
 	@./media.sh
+	@wendy -m 768 -f ./media ./media.sh &
 
 clean:
 	@echo "Cleaning: `pwd`"
