@@ -87,10 +87,11 @@ run a command. I'm simply using this command:
     wendy -m 768 -f ./media ./media.sh
 
 Now when wendy detects a change in ./media, it'll run `media.sh` again to
-regenerate the new HTML with the new file listed! I'm going to eventually figure
-out a more 'fire-and-forget' way with using it with make, but now I can
-finally say I generate all my HTML on my site with nothing but shell scripts!
+regenerate the new HTML with the new file listed! Now I just run the above
+command in my Makefile to start wendy up when I build the site. I also guess I
+can finally say I generate all my HTML on my site with nothing but shell
+scripts!
 
-For reference, all the scripts are [available in my website git repository.](https://github.com/Wildefyr/wildefyr.net)
+For reference, all the scripts and the Makefile is [available in my website git repository](https://github.com/Wildefyr/wildefyr.net).
 
 Happy hacking!
