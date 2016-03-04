@@ -5,13 +5,6 @@
 
 HTMLROOT="/builds/wildefyr.net"
 
-# test if there is a wendy instance, if not start one
-wendyStart() {
-    pgrep wendy 2>&1 > /dev/null || {
-        wendy -m 960 -f . "sleep 1; ../media.sh" &
-    }
-}
-
 # generate html
 generate() {
     for dir in $(find $HTMLROOT/media -type d); do
@@ -56,11 +49,6 @@ clean() {
 cd "$HTMLROOT/media"
 
 case $1 in
-    clean)
-        clean
-        ;;
-    *)
-        wendyStart
-        generate
-        ;;
+    clean) clean    ;;
+    *)     generate ;;
 esac
