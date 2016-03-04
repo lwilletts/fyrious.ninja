@@ -17,21 +17,14 @@ html, body {
 }
 
 #headerList {
+    display: flex;
     max-width: 100%;
-    padding-right: 3em;
+    margin-left: -40px;
 }
 
-#headerList ul {
-    list-style-type: none;
-}
-
-#headerList li {
-    display: inline-block;
-    margin-top: 10px;
-}
-
-#headerList li a {
-    padding: 10px 20px;
+#headerList a {
+    padding: 10px 1.5em;
+    word-height: 2em;
     background-color: #14161A;
     border: 2px solid #737373;
     color: #737373;
@@ -54,7 +47,7 @@ html, body {
 
 #content {
     font: sans-serif;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 #textWrap {
@@ -64,12 +57,12 @@ html, body {
 
 #arcticleTitle {
     display: inline-block;
-    margin-bottom: 20px;
     background-color: #14161A;
     box-shadow: 5px 5px 20px 1px #000;
     border: 1px solid #737373;
     padding: 10px;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 #arcticleWhite {
