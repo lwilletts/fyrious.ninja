@@ -29,9 +29,6 @@ build: clean all
 
 .SUFFIXES: .md .html .xml
 
-HEADER = html/head.html
-FOOTER = html/foot.html
-
-.md.html: $(HEADER) $(FOOTER)
+.md.html:
 	@echo "MARKDOWN: `basename $@`"
-	@$(MD) $< | cat $(HEADER) - $(FOOTER) > $@
+	@$(MD) $< | cat - > $@
