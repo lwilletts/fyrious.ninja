@@ -222,7 +222,7 @@ code {
 pre {
     box-shadow: 1px 1px 10px 1px #000;
     border-left: 5px solid #2E8B57;
-    min-width: 250px;
+    min-width: 350px;
 }
 
 pre code:before {
