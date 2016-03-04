@@ -10,7 +10,7 @@ check:
 	@./check.sh
 
 ports:
-	@./ports.sh gen
+	@./ports.sh
 
 clean:
 	@echo "Cleaning: `pwd`"
