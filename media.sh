@@ -8,7 +8,7 @@ HTMLROOT="/builds/wildefyr.net"
 # test if there is a wendy instance, if not start one
 wendyStart() {
     pgrep wendy 2>&1 > /dev/null || {
-        wendy -m 960 -f . sh -c ../media.sh &
+        wendy -m 960 -f . sh ../media.sh &
     }
 }
 
