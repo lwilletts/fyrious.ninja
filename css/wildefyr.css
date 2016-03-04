@@ -231,10 +231,11 @@ pre code:before {
 
 #alignfile {
     display: inline-block;
-    min-width: 300px;
+    min-width: 600px;
 }
 
 #aligndata {
+    min-width: 224px;
     display: inline-block;
 }
 

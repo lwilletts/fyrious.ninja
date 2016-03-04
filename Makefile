@@ -2,15 +2,18 @@ MD       = /usr/bin/markdown
 PAGES    = index.html start/index.html
 SUBDIRS  = blog
 
-.PHONY: all check clean site ports new build
+.PHONY: all check clean site ports media new build
 
-all: ports site $(PAGES)
+all: ports media site $(PAGES)
 
 check:
 	@./check.sh
 
 ports:
 	@./ports.sh
+
+media:
+	@./media.sh
 
 clean:
 	@echo "Cleaning: `pwd`"
@@ -20,6 +23,8 @@ clean:
 	done
 	@echo "Cleaning: ports"
 	@./ports.sh clean
+	@echo "Cleaning: media"
+	@./media.sh clean
 
 site:
 	@echo "Building: `pwd`"

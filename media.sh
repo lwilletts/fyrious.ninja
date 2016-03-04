@@ -8,14 +8,13 @@ HTMLROOT="/builds/wildefyr.net"
 # test if there is a wendy instance, if not start one
 wendyStart() {
     pgrep wendy 2>&1 > /dev/null || {
-        wendy -m 960 -f . sh ../media.sh &
+        wendy -m 960 -f . "sleep 1; ../media.sh" &
     }
 }
 
 # generate html
 generate() {
-    sleep 0.5
-    for dir in $(find -type d); do
+    for dir in $(find $HTMLROOT/media -type d); do
         cd $dir || continue
 
         printf '%s' "<pre><code>" > index.html
@@ -40,17 +39,17 @@ generate() {
 
         printf '%s\n' "</code></pre>" >> index.html
 
-        test $(find -type d | head -n 1) != '.' && cd ../
+        cd ../
     done
 }
 
 clean() {
     pkill wendy && printf '%s\n' "wendy killed!"
 
-    for dir in $(find -type d); do
+    for dir in $(find $HTMLROOT/media -type d); do
         cd $dir
         test -f index.html && rm index.html
-        test $(find -type d | head -n 1) != '.' && cd ../
+        cd ../
     done
 }
 
