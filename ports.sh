@@ -35,7 +35,7 @@ generate() {
 
             printf "\
 <div id=\"alignfile\">\
-<a href=\"${file}\">${file}</a>\t\
+<a href=\"${file}\">${file}</a>\
 </div>\
 <div id=\"aligndata\">\
 <span id=\"alignsize\">${size}</span>\t\
