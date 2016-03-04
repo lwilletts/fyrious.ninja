@@ -2,12 +2,15 @@ MD       = /usr/bin/markdown
 PAGES    = index.html start/index.html
 SUBDIRS  = blog
 
-.PHONY: all check clean site new build
+.PHONY: all check clean site ports new build
 
-all: site $(PAGES)
+all: ports site $(PAGES)
 
 check:
 	@./check.sh
+
+ports:
+	@./ports.sh gen
 
 clean:
 	@echo "Cleaning: `pwd`"
@@ -15,6 +18,8 @@ clean:
 	for dir in $(SUBDIRS); do \
 		$(MAKE) -C $$dir clean; \
 	done
+	@echo "Cleaning: ports"
+	@./ports.sh clean
 
 site:
 	@echo "Building: `pwd`"

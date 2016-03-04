@@ -228,3 +228,21 @@ pre {
 pre code:before {
     content: none;
 }
+
+#alignfile {
+    display: inline-block;
+    min-width: 300px;
+    margin-left: -40px;
+}
+
+#aligndata {
+    display: inline-block;
+}
+
+#aligndate {
+    float: left;
+}
+
+#alignsize {
+    float: right;
+}
