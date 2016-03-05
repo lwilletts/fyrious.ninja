@@ -91,6 +91,7 @@ html, body {
 }
 
 #arcticleWhite table {
+    min-width: 100%;
     color: #D7D7D7;
     font-size: 85%;
     font: monospace;
@@ -206,10 +207,10 @@ blockquote {
 }
 
 code, pre {
+    font-family: monospace;
     display: inline-block;
     color: #D7D7D7;
     background-color: #111;
-    font: monospace;
     font-size: 1em;
     padding-left: 5px;
     padding-right: 5px;
@@ -223,22 +224,4 @@ pre {
 
 pre code:before {
     content: none;
-}
-
-#alignfile {
-    display: inline-block;
-    min-width: 600px;
-}
-
-#aligndata {
-    min-width: 224px;
-    display: inline-block;
-}
-
-#aligndate {
-    float: left;
-}
-
-#alignsize {
-    float: right;
 }
