@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# wildefyr && z3bra - 2016 (c) MIT
+# generate an atom rss feed from a markdown list
 
 usage() {
     cat << EOF
@@ -23,14 +26,14 @@ EOF
 
 postNum=$(wc -l < "$FILE")
 postNum=$((postNum - 2))
-posts=$(cat "$FILE" | tail -${postNum})
+posts=$(tail -${postNum} < "$FILE")
 
 for i in $(seq $postNum); do
-    post=$(echo "$posts" | sed "$i!d")
-    echo "$post" | sed "s_* __; s_\[_<item><title>_; s_\]_</title>_; s_(_<guid>${BASEURL}_; s_)_</guid></item>_" > feed.xml
+    post=$(printf '%s\n' "$posts" | sed "$i!d")
+    printf '%s\n' "$post" | sed "s_* __; s_\[_<item><title>_; s_\]_</title>_; s_(_<guid>${BASEURL}_; s_)_</guid></item>_" >> feed.xml
 done
 
-cat > "feed.xml" << EOF
+cat >> "feed.xml" << EOF
 </channel>
 </rss>
 EOF

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# wildefyr && z3bra - 2016 (c) wtfpl
+# wildefyr && z3bra - 2016 (c) MIT
 # write a new post
 
 HTMLROOT="/builds/wildefyr.net"
