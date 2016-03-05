@@ -20,10 +20,11 @@ I also have a teamspeak server available on this
 [domain](ts3server://wildefyr.net) that I may or may not be on depending on
 the time of day.
 
-    printf '%\n' "cool stuff and people"
+    printf '%s\n' "cool stuff and people"
 
-* [crux.nu](https://crux.nu) - simple source linux distro 
+* [crux.nu](https://crux.nu) - simple source linux distro
 * [nixers.net](http://nixers.net) - forum for \*nix lovers
 * [suckless](http://suckless.org) - why don't you suckless?
-* [z3bra.net](http://z3bra.org) - an inspiration to us all
+* [z3bra.org](http://z3bra.org) - an inspiration to us all
 * [xero.nu](http://xero.nu) - a cool vegan guy
+* [vypr.xyz](https://vypr.xyz) - hipster Esperanto fiend
