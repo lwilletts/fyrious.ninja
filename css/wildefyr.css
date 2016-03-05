@@ -215,10 +215,6 @@ code, pre {
     padding-right: 5px;
 }
 
-code {
-    border: 1px solid #111;
-}
-
 pre {
     box-shadow: 1px 1px 10px 1px #000;
     border-left: 5px solid #2E8B57;
