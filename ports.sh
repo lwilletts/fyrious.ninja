@@ -53,7 +53,11 @@ generate() {
 }
 
 clean() {
-    find -name "index.html" -exec rm {} \;
+    for dir in */; do
+        cd "$dir"
+        find . -name "index.html" -exec rm {} \;
+        cd ../
+    done
 }
 
 cd "$HTMLROOT/ports"
