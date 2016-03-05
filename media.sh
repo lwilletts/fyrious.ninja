@@ -5,22 +5,19 @@
 
 HTMLROOT="/builds/wildefyr.net"
 
-# generate html
-generate() {
-    for dir in $(find $HTMLROOT/media -type d); do
-        cd $dir || continue
+html() {
+    printf '%s' "<pre><code>" > index.html
+    printf "<a href=\"../\">../</a>\n" >> index.html
 
-        printf '%s' "<pre><code>" > index.html
-        printf "<a href=\"../\">../</a>\n" >> index.html
+    find . -maxdepth 0 -exec ls -A {} \; | \
+    while IFS= read -r file; do
+        test "$file" = "index.html" && continue
+        date=$(du --time "$file" | awk '{print $2,$3}')
+        size=$(du -hs "$file" | awk '{print $1}')
 
-        for file in $(ls -A); do
-            test "$file" = "index.html" && continue
-            date=$(du --time ${file} | awk '{print $2,$3}')
-            size=$(du -hs ${file} | awk '{print $1}')
+        test "$size" = "0" && size="-"
 
-            test "$size" = "0" && size="-"
-
-            printf "\
+        printf "\
 <div id=\"alignfile\">\
 <a href=\"${file}\">${file}</a>\
 </div>\
@@ -28,10 +25,18 @@ generate() {
 <span id=\"alignsize\">${size}</span>\t\
 <span id=\"aligndate\">${date}</span>\t\
 </div>\n" >> index.html
-        done
+    done
 
-        printf '%s\n' "</code></pre>" >> index.html
+    printf '%s\n' "</code></pre>" >> index.html
+}
 
+# generate html
+generate() {
+    html
+
+    for dir in */; do
+        cd "$dir"
+        html
         cd ../
     done
 }
@@ -39,11 +44,7 @@ generate() {
 clean() {
     pkill wendy && printf '%s\n' "wendy killed!"
 
-    for dir in $(find $HTMLROOT/media -type d); do
-        cd $dir
-        test -f index.html && rm index.html
-        cd ../
-    done
+    find -name "index.html" -exec rm {} \;
 }
 
 cd "$HTMLROOT/media"
