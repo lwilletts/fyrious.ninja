@@ -137,6 +137,10 @@ h2 {
     font-size: 1.1em;
 }
 
+h2:before {
+    content: "- ";
+}
+
 h3 {
     color: #FFF;
     font: inherit;
