@@ -13,9 +13,7 @@ build() {
 	unzip video-sdk-601
 	cd nvidia_video_sdk_${version}/Samples/common/inc
 
-	mkdir -p /usr/include/${name}
-
 	for FILE in $(find . -name "*.h"); do
-		install -Dm 644 $FILE $PKG/usr/include/${name}
+		install -Dm 644 $FILE $PKG/usr/include/$FILE
 	done
 }

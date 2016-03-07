@@ -48,7 +48,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:fann/.footprint
 f:f7c1772da5541904a2d4366c7bfeded7:fann/Pkgfile
 f:e4ba627d77a5056de7047261826dbdb8:fann/Added-type-conversion-and-const.patch
 f:09796c9bb3e7d222c39c8cc3bc1e4537:nvidia-sdk/.md5sum
-f:4be81d7d31cf3a3e5f16c2cfc3d2dd3e:nvidia-sdk/Pkgfile
+f:21c78829c3412b7796219369ce8cc14e:nvidia-sdk/.footprint
+f:78865b896b4d9cfc04fd7781913091d7:nvidia-sdk/Pkgfile
 f:02efc36d9bdead6124a71dc542d5ed28:connman/.md5sum
 f:c9eb4fd0beb8d3df9f25b57152752c4c:connman/.footprint
 f:e80e712dba80d4d4da42f11c9f6dab3b:connman/Pkgfile
@@ -62,7 +63,7 @@ f:eb1b1c17dd5f2e183c8c84c3d5232700:nginx/.footprint
 f:ac30063b7d53a924409cb379d25a6123:nginx/Pkgfile
 f:06712aa2b72397850b0725f2e9d20627:nginx/nginx.rc
 f:93b358681200fe294581cb559d529aee:nginx/nginx.conf
-f:f33581d186653488ec343b7071e87787:index.html
+f:1d5e4380b027f2242457a12623d544ca:index.html
 f:92f1e78d8a336304e5d6588618b5d3cf:udftools/udftools-1.0.0b3.patch
 f:9d3820b017f2f39f8d3faca12381bcdd:udftools/udftools-limits.patch
 f:ff606c797dbfc04a07781b5cadf2cb6d:udftools/udftools-open_missing_mode.patch
@@ -81,7 +82,7 @@ f:892dd2de12bb1ca95d27258e2ddb0565:transset-df/.md5sum
 f:338de7dd9e860ab12ba3c528ba77cc79:transset-df/.footprint
 f:79bca1954305743351bd71b203261fef:transset-df/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
-f:c2f41dba89662f98f7e6e8a908c21f68:ffmpeg/.footprint
+f:56a5addcd08e6ff7ac98e1d7a36c9105:ffmpeg/.footprint
 f:805bb67d37a5bc9735cc96e5e161fcc7:ffmpeg/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:winetricks/.md5sum
 f:a55aa39ea068a214b3fb39d8e2f3ff48:winetricks/.footprint
@@ -139,7 +140,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.footprint
 f:59887367e491c14935f82c32edb90b91:terminibbles/Pkgfile
 f:94f897ed9f0760ac422963e404f7b61b:wildefyr.git
 f:d41d8cd98f00b204e9800998ecf8427e:vimpager/.md5sum
-f:d09d35b662390070db849ba0967a1a64:vimpager/.footprint
+f:ceb766a1e2c1d2f5a7dc4af38f82998f:vimpager/.footprint
 f:71cfab70969a0254b013581c89cc5576:vimpager/Pkgfile
 f:ca910399c0195f0250448bb93013870e:htop-vi/vim-keybindings.patch
 f:b04eee3716c736b969cd2f991d05cd01:htop-vi/.md5sum
@@ -159,6 +160,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:9fb3546e8ef6b0df2bff593048f28ea5:gpick/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:xxd/.md5sum
+f:e81fc8035e9e6515c71ce435a4a1d9e1:xxd/.footprint
 f:c3efb1cd2287a1615de86b8c3859a2d9:xxd/Pkgfile
 f:e886e625d7efb00653a82e8b57e347db:tcc/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:tcc/.footprint
