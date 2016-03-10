@@ -1,6 +1,7 @@
 d:w3m
 d:fann
 d:nvidia-sdk
+d:steam
 d:connman
 d:lm-sensors
 d:nginx
@@ -21,6 +22,7 @@ d:sxiv
 d:pip
 d:xero-figlet-fonts
 d:killwa
+d:mpv
 d:wmutils
 d:teamspeak
 d:youtube-upload
@@ -50,6 +52,10 @@ f:e4ba627d77a5056de7047261826dbdb8:fann/Added-type-conversion-and-const.patch
 f:09796c9bb3e7d222c39c8cc3bc1e4537:nvidia-sdk/.md5sum
 f:21c78829c3412b7796219369ce8cc14e:nvidia-sdk/.footprint
 f:78865b896b4d9cfc04fd7781913091d7:nvidia-sdk/Pkgfile
+f:86dfaa447d60d9731bbe6dc7e76145c7:steam/.md5sum
+f:ac0e03d70f1101331598b2b32ed9bac3:steam/alsa.patch
+f:8c98fcdba78a5f2fa1514e55f68ce144:steam/.footprint
+f:8fc35d7f8c9d0b8b85b47b407aad0259:steam/Pkgfile
 f:02efc36d9bdead6124a71dc542d5ed28:connman/.md5sum
 f:c9eb4fd0beb8d3df9f25b57152752c4c:connman/.footprint
 f:e80e712dba80d4d4da42f11c9f6dab3b:connman/Pkgfile
@@ -118,11 +124,14 @@ f:cecdaaab1fc01b852f2be832b404675f:pip/.md5sum
 f:ecd2f01bf77056f27b47d882a953e09d:pip/.footprint
 f:69fdef6981437949863c1e4000ad9277:pip/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:xero-figlet-fonts/.md5sum
-f:7dae5a439e3a90a43e21338653f3ec95:xero-figlet-fonts/.footprint
+f:4610082da2b17da4cdc84ffcdc17f8c1:xero-figlet-fonts/.footprint
 f:6ab292c502c7929a4b539ca75c5f23e5:xero-figlet-fonts/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:killwa/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:killwa/.footprint
 f:dcb9a32707afbd4f5ceaeacc1772e75f:killwa/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:mpv/.md5sum
+f:fd74a71bac9551eafca097b9610173b9:mpv/.footprint
+f:1c0471d5e79fc886487222c6003081cf:mpv/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmutils/.md5sum
 f:d41fea460f60876a5d441c05dd7f4f7f:wmutils/.footprint
 f:f86bd2787e8928f28ad7602f38f4c4a7:wmutils/Pkgfile
@@ -163,7 +172,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:xxd/.md5sum
 f:e81fc8035e9e6515c71ce435a4a1d9e1:xxd/.footprint
 f:c3efb1cd2287a1615de86b8c3859a2d9:xxd/Pkgfile
 f:e886e625d7efb00653a82e8b57e347db:tcc/.md5sum
-f:d41d8cd98f00b204e9800998ecf8427e:tcc/.footprint
+f:8714c95b45a2577aa1df5af6335ae45c:tcc/.footprint
 f:2d4bb9d908e55e9c4353358d1c6b6a09:tcc/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:legionsoverdrive/.md5sum
 f:87eb9b2ebf95136896d33180699904bb:legionsoverdrive/.footprint
