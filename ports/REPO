@@ -30,6 +30,7 @@ d:colors
 d:wmutils
 d:teamspeak
 d:youtube-upload
+d:mprime
 d:terminibbles
 d:vimpager
 d:urxvt-perls
@@ -165,6 +166,9 @@ f:98e987a42511f159fa2228f5e0bffed1:teamspeak/teamspeak3.desktop
 f:d41d8cd98f00b204e9800998ecf8427e:youtube-upload/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:youtube-upload/.footprint
 f:c07e3c80de9d895912725a591c87022e:youtube-upload/Pkgfile
+f:9512b1b4b9841e11ac33a1a398238489:mprime/.md5sum
+f:c1f5f758e3cc7336f2c83c0499d4fc19:mprime/.footprint
+f:52059f93ccf907f06066f5a779aa6270:mprime/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.footprint
 f:59887367e491c14935f82c32edb90b91:terminibbles/Pkgfile
