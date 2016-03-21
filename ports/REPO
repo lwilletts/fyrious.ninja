@@ -2,6 +2,7 @@ d:w3m
 d:fann
 d:nvidia-sdk
 d:steam
+d:sinit
 d:connman
 d:lm-sensors
 d:nginx
@@ -65,6 +66,7 @@ f:86dfaa447d60d9731bbe6dc7e76145c7:steam/.md5sum
 f:ac0e03d70f1101331598b2b32ed9bac3:steam/alsa.patch
 f:8c98fcdba78a5f2fa1514e55f68ce144:steam/.footprint
 f:8fc35d7f8c9d0b8b85b47b407aad0259:steam/Pkgfile
+f:3faabb51d8f943bded6f549b7652f401:sinit/Pkgfile
 f:02efc36d9bdead6124a71dc542d5ed28:connman/.md5sum
 f:c9eb4fd0beb8d3df9f25b57152752c4c:connman/.footprint
 f:e80e712dba80d4d4da42f11c9f6dab3b:connman/Pkgfile
@@ -81,7 +83,7 @@ f:93b358681200fe294581cb559d529aee:nginx/nginx.conf
 f:d41d8cd98f00b204e9800998ecf8427e:farbfeld/.md5sum
 f:d2b9af3a2837add4c37cbbbc69349f3e:farbfeld/.footprint
 f:b3e606be91c4a302a8e98a9500fd86c7:farbfeld/Pkgfile
-f:026e2be5c5a3836b8d5f61ae3135da12:index.html
+f:4984d5dd10719a627cd9a3fb1022cbcd:index.html
 f:92f1e78d8a336304e5d6588618b5d3cf:udftools/udftools-1.0.0b3.patch
 f:9d3820b017f2f39f8d3faca12381bcdd:udftools/udftools-limits.patch
 f:ff606c797dbfc04a07781b5cadf2cb6d:udftools/udftools-open_missing_mode.patch
@@ -136,9 +138,9 @@ f:0350499287f91d3166c41936748cb450:sxiv/config.h
 f:b1adbed756ea2829260ee06f22a37cf1:sxiv/.md5sum
 f:5fbd9655be340b576237832209d2c731:sxiv/.footprint
 f:82e43ac3c94400f337413ca1d30ab91e:sxiv/Pkgfile
-f:cecdaaab1fc01b852f2be832b404675f:pip/.md5sum
-f:ecd2f01bf77056f27b47d882a953e09d:pip/.footprint
-f:69fdef6981437949863c1e4000ad9277:pip/Pkgfile
+f:ac10150d98862bf95612efb30617bb1f:pip/.md5sum
+f:bf1d592fb8cfb5a0107c3006692c8645:pip/.footprint
+f:48b47d696196d8be9e0788ec9196807b:pip/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:xero-figlet-fonts/.md5sum
 f:4610082da2b17da4cdc84ffcdc17f8c1:xero-figlet-fonts/.footprint
 f:6ab292c502c7929a4b539ca75c5f23e5:xero-figlet-fonts/Pkgfile
