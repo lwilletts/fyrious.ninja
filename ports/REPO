@@ -74,8 +74,8 @@ f:c9eb4fd0beb8d3df9f25b57152752c4c:connman/.footprint
 f:e80e712dba80d4d4da42f11c9f6dab3b:connman/Pkgfile
 f:cf7f7de390ef1703ce94a156bde9bbfd:connman/rc.connmand
 f:d41d8cd98f00b204e9800998ecf8427e:lm-sensors/.md5sum
-f:094aa90f9215b5451db25801575d9207:lm-sensors/.footprint
-f:14553ae61191fc7778dabd1d13cf476e:lm-sensors/Pkgfile
+f:10a674c6b3919a03c7244207ecb6b7ca:lm-sensors/.footprint
+f:c692a68f55a92f4febefcb2bdde83a79:lm-sensors/Pkgfile
 f:b91db8265eed953ae3d0dabe6738dd4c:nginx/pre-install
 f:9c902fbf30996a7667765926e1566b59:nginx/.md5sum
 f:eb1b1c17dd5f2e183c8c84c3d5232700:nginx/.footprint
@@ -91,7 +91,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:nvidia-32/.32bit
 f:2f6a8a3fa2162352e089742854da9d0a:nvidia-32/.footprint
 f:9bbad24bad493bee358c003be5657a9f:nvidia-32/README
 f:edc3a5ae8874049d0189f708bd8040f1:nvidia-32/Pkgfile
-f:8eff3e22f779b78bdbe21e83fe06eebd:index.html
+f:8fa9315126780c693a6bccc87929b277:index.html
 f:92f1e78d8a336304e5d6588618b5d3cf:udftools/udftools-1.0.0b3.patch
 f:9d3820b017f2f39f8d3faca12381bcdd:udftools/udftools-limits.patch
 f:ff606c797dbfc04a07781b5cadf2cb6d:udftools/udftools-open_missing_mode.patch

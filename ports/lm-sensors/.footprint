@@ -1,22 +1,6 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/sensors.d/
 -rw-r--r--	root/root	etc/sensors3.conf
-drwxr-xr-x	root/root	man/
-drwxr-xr-x	root/root	man/man1/
-drwxr-xr-x	root/root	man/man1/man1/
--rw-r--r--	root/root	man/man1/man1/sensors.1.gz
-drwxr-xr-x	root/root	man/man1/man3/
--rw-r--r--	root/root	man/man1/man3/libsensors.3.gz
-drwxr-xr-x	root/root	man/man1/man5/
--rw-r--r--	root/root	man/man1/man5/sensors.conf.5.gz
-lrwxrwxrwx	root/root	man/man1/man5/sensors3.conf.5.gz -> sensors.conf.5.gz
-drwxr-xr-x	root/root	man/man1/man8/
--rw-r--r--	root/root	man/man1/man8/fancontrol.8.gz
--rw-r--r--	root/root	man/man1/man8/isadump.8.gz
--rw-r--r--	root/root	man/man1/man8/isaset.8.gz
--rw-r--r--	root/root	man/man1/man8/pwmconfig.8.gz
--rw-r--r--	root/root	man/man1/man8/sensors-conf-convert.8.gz
--rw-r--r--	root/root	man/man1/man8/sensors-detect.8.gz
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/sensors
@@ -36,3 +20,19 @@ drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/isaset
 -rwxr-xr-x	root/root	usr/sbin/pwmconfig
 -rwxr-xr-x	root/root	usr/sbin/sensors-detect
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/sensors.1.gz
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/libsensors.3.gz
+drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/sensors.conf.5.gz
+lrwxrwxrwx	root/root	usr/share/man/man5/sensors3.conf.5.gz -> sensors.conf.5.gz
+drwxr-xr-x	root/root	usr/share/man/man8/
+-rw-r--r--	root/root	usr/share/man/man8/fancontrol.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/isadump.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/isaset.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/pwmconfig.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/sensors-conf-convert.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/sensors-detect.8.gz
