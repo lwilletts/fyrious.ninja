@@ -1,7 +1,7 @@
 # Description: nVIDIA Linux Display Driver (long lived branch version)
-# URL: http://www.nvidia.com/
-# Maintainer: Matt Housh, jaeger at crux dot ninja
-# Depends on: gtk gl-select
+# URL:         http://www.nvidia.com/
+# Packager:    wildefyr, me at wildefyr dot net
+# Depends on:  gtk gl-select
 
 name=nvidia
 version=364.12
