@@ -28,6 +28,7 @@ d:killwa
 d:mpv
 d:vapoursynth
 d:colors
+d:nvidia
 d:wmutils
 d:teamspeak
 d:youtube-upload
@@ -83,7 +84,7 @@ f:93b358681200fe294581cb559d529aee:nginx/nginx.conf
 f:d41d8cd98f00b204e9800998ecf8427e:farbfeld/.md5sum
 f:d2b9af3a2837add4c37cbbbc69349f3e:farbfeld/.footprint
 f:b3e606be91c4a302a8e98a9500fd86c7:farbfeld/Pkgfile
-f:4984d5dd10719a627cd9a3fb1022cbcd:index.html
+f:55bf712b81113664cede2d8ecab3734c:index.html
 f:92f1e78d8a336304e5d6588618b5d3cf:udftools/udftools-1.0.0b3.patch
 f:9d3820b017f2f39f8d3faca12381bcdd:udftools/udftools-limits.patch
 f:ff606c797dbfc04a07781b5cadf2cb6d:udftools/udftools-open_missing_mode.patch
@@ -94,7 +95,7 @@ f:8d4f69981c4819d64cc7ad932fcfd2bf:udftools/Pkgfile
 f:629392c8268752855fe2dbd91295dcbf:udftools/gcc5-compile-fix.patch
 f:d41d8cd98f00b204e9800998ecf8427e:wmutils-opt/.md5sum
 f:ed673e17ced18790272db880d86d84f7:wmutils-opt/.footprint
-f:2d82f1dec1d9fe128bdfa59ea3786420:wmutils-opt/Pkgfile
+f:4132b7c92cb2881dce19ac736cc3a588:wmutils-opt/Pkgfile
 f:427a90e3c7e047ae628885100f0cd44c:iucode-tool/.md5sum
 f:8dfde73242d79c5cb9d2da4524fb042b:iucode-tool/.footprint
 f:02b84e8821d7f06700b4f4f5e937067d:iucode-tool/Pkgfile
@@ -156,6 +157,11 @@ f:a73aa43e864a4977753a8464e2f950c3:vapoursynth/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:colors/.md5sum
 f:7c5b71c246da7b2491acbf52953b7c94:colors/.footprint
 f:0d06f15e672c0c10dbea675d09f0a558:colors/Pkgfile
+f:5461fa3f1ac4306a32c06ef454779f5d:nvidia/.md5sum
+f:96a1312c4502389990432abdb7a3aa12:nvidia/.footprint
+f:9bbad24bad493bee358c003be5657a9f:nvidia/README
+f:6fdd9118144bd5f3ee86f0d17a1bfe28:nvidia/Pkgfile
+f:4511024cc556d0c6e7c467b6789524e2:nvidia/90-nvidia-uvm.rules
 f:d41d8cd98f00b204e9800998ecf8427e:wmutils/.md5sum
 f:d41fea460f60876a5d441c05dd7f4f7f:wmutils/.footprint
 f:f86bd2787e8928f28ad7602f38f4c4a7:wmutils/Pkgfile
