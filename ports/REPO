@@ -101,7 +101,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:udftools/.footprint
 f:8d4f69981c4819d64cc7ad932fcfd2bf:udftools/Pkgfile
 f:629392c8268752855fe2dbd91295dcbf:udftools/gcc5-compile-fix.patch
 f:d41d8cd98f00b204e9800998ecf8427e:wmutils-opt/.md5sum
-f:f25547320ee8ced56147c7787e7d9966:wmutils-opt/.footprint
+f:ed673e17ced18790272db880d86d84f7:wmutils-opt/.footprint
 f:4132b7c92cb2881dce19ac736cc3a588:wmutils-opt/Pkgfile
 f:427a90e3c7e047ae628885100f0cd44c:iucode-tool/.md5sum
 f:8dfde73242d79c5cb9d2da4524fb042b:iucode-tool/.footprint
@@ -115,7 +115,7 @@ f:338de7dd9e860ab12ba3c528ba77cc79:transset-df/.footprint
 f:79bca1954305743351bd71b203261fef:transset-df/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:0f937ce7b95f50fcd33da37a11e25e41:ffmpeg/.footprint
-f:805bb67d37a5bc9735cc96e5e161fcc7:ffmpeg/Pkgfile
+f:e718913be06f4bc7908d0e9a683168a3:ffmpeg/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:winetricks/.md5sum
 f:a55aa39ea068a214b3fb39d8e2f3ff48:winetricks/.footprint
 f:6a9a33b702f90030363dca58de86208f:winetricks/Pkgfile

@@ -19,45 +19,44 @@ build() {
 		cd $name
 	fi
 
-	./configure \
-			--prefix=/usr \
-			--disable-debug \
-			--disable-doc \
-			--enable-avfilter \
-			--enable-avresample \
-			--enable-dxva2 \
-			--enable-fontconfig \
-			--enable-gnutls \
-			--enable-gpl \
-			--enable-libass \
-			--enable-libbluray \
-			--enable-libfreetype \
-			--enable-libmodplug \
-			--enable-libmp3lame \
-			--enable-libopencore_amrnb \
-			--enable-libopencore_amrwb \
-			--enable-libopenjpeg \
-			--enable-libopus \
-			--enable-librtmp \
-			--enable-libschroedinger \
-			--enable-libspeex \
-			--enable-libtheora \
-			--enable-libvorbis \
-			--enable-libx264 \
-			--enable-libx265 \
-			--enable-libvpx \
-			--enable-libxvid \
-			--enable-pic \
-			--enable-postproc \
-			--enable-pthreads \
-			--enable-shared \
-			--enable-swresample \
-			--enable-vaapi \
-			--enable-vdpau \
-			--enable-version3 \
-			--enable-x11grab \
-			--enable-nonfree \
-			--enable-nvenc
+	./configure --prefix=/usr \
+				--disable-debug \
+				--disable-doc \
+				--enable-avfilter \
+				--enable-avresample \
+				--enable-dxva2 \
+				--enable-fontconfig \
+				--enable-gnutls \
+				--enable-gpl \
+				--enable-libass \
+				--enable-libbluray \
+				--enable-libfreetype \
+				--enable-libmodplug \
+				--enable-libmp3lame \
+				--enable-libopencore_amrnb \
+				--enable-libopencore_amrwb \
+				--enable-libopenjpeg \
+				--enable-libopus \
+				--enable-librtmp \
+				--enable-libschroedinger \
+				--enable-libspeex \
+				--enable-libtheora \
+				--enable-libvorbis \
+				--enable-libx264 \
+				--enable-libx265 \
+				--enable-libvpx \
+				--enable-libxvid \
+				--enable-pic \
+				--enable-postproc \
+				--enable-pthreads \
+				--enable-shared \
+				--enable-swresample \
+				--enable-vaapi \
+				--enable-vdpau \
+				--enable-version3 \
+				--enable-x11grab \
+				--enable-nonfree \
+				--enable-nvenc
 
 	make
 	make DESTDIR=$PKG install install-man
