@@ -1,9 +1,0 @@
-#!/bin/sh
-
-DOTS="$HOME/.dotfiles"
-
-case $1 in
-    net) cat $DOTS/bin/.wildefyr3 | toilet -f term -w 200 -t --gay ;;
-    3d)  cat $DOTS/bin/.wildefyr2 | toilet -f term -w 200 -t --gay ;;
-    *)   cat $DOTS/bin/.wildefyr  | toilet -f term -w 200 -t --gay ;;
-esac

@@ -1,6 +1,0 @@
-#!/bin/sh
-
-xset +fp ~/.fonts
-xset fp rehash
-fc-cache
-fc-cache -fv
