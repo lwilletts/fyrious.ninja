@@ -1,0 +1,21 @@
+[core]
+	filemode = true
+[user]
+	email = me@wildefyr.net
+	name = Laurence Willetts
+[push]
+	default = matching
+[color]
+	ui = auto
+[alias]
+	cm = commit -m
+	graph = log --graph --pretty=format:\
+"%C(yellow)%H%C(green)%d%C(reset)%n%x20%cd%n%x20%cn%x20(%ce)%n%x20%s%n"
+	stat = status -sb
+	cached = diff --cached
+	seturl = remote set-url origin
+	stashed = stash list
+	softly = reset --soft HEAD~
+	unstage = reset HEAD --
+[credential "https://github.com"]
+	username = wildefyr

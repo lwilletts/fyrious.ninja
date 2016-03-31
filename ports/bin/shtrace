@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) wtfpl
+# perform a trace of a shell script and log the results
+
+test -z "$1" && {
+    printf '%s\n' "No script given."
+    exit 1
+}
+
+sh -x "$@" 2> /tmp/shtrace
+$EDITOR /tmp/shtrace

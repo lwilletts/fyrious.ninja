@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# strip color codes from output
+
+sed 's/\x1B\[[0-9;]*[JKmsu]//g'

@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# wildefyr - 2015 (c) wtfpl
+# lazy fzf function to kill processes
+
+KILL=$(ps ax | sed '1d' | fzf -m -x --tac | awk '{print $1}')
+
+kill -9 $KILL

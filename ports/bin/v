@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) CC
+# output files with colour if vimcat found
+
+type vimcat 2>&1 > /dev/null && {
+    vimcat "$@"
+} || {
+    cat "$@"
+}

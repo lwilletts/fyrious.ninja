@@ -1,0 +1,11 @@
+#!/bin/sh
+
+file="$1"
+
+test ! -f "$file" && {
+    printf '%s\n' "File doesn't exist!"
+    exit 1
+}
+
+ioup "$file" | xsel -i
+xsel -o | xsel -bi

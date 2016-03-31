@@ -1,0 +1,15 @@
+#!/bin/sh
+
+case $1 in
+    "on")
+        nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+        printf '%s\n' "vsync on!"
+        ;;
+    "off")
+        nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = Off }"
+        printf '%s\n' "vsync off!"
+        ;;
+    *)
+        exit 1
+        ;;
+esac

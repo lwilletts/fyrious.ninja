@@ -1,0 +1,80 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) wtfpl
+# link load with extra tweaks for wmutils
+
+URL="$1"
+
+# conversion layer to get URL to the raw pastes
+rawp() {
+    case "$URL" in
+        "*pbin.in/*")
+            URL="http://pbin.in/raw/$(echo $URL | cut -d/ -f 4)"
+            ;;
+        "*pastebin.com/*")
+            URL="http://pastebin.com/raw/$(echo $URL | cut -d/ -f 4)"
+            ;;
+        "*paste.list.org/*")
+            URL="http://paste.lisp.org/display/$(echo $URL | cut -d/ -f 4)/raw"
+            ;;
+    esac
+}
+
+openBrowser() {
+    test ! -z $(wid 'chrome') && {
+        google-chrome-stable --new-tab "$URL" 2> /dev/null
+    } || {
+        windows -s 2
+        google-chrome-stable --new-tab "$URL" 2> /dev/null
+    }
+
+    focus "$(wid 'chrome')"
+}
+
+# sync clipboards
+printf '%s\n' "$URL" | xsel -pi
+printf '%s\n' "$URL" | xsel -si
+printf '%s\n' "$URL" | xsel -bi
+
+pkill xsel
+
+case "$URL" in
+    "*.gifv"|"*.webm")
+        exec mpv "$URL" --really-quiet --loop-file &
+        ;;
+    "*.jp*g"|"*.png"|"*.webm"|"*.gif"|"*gfycat.com/*")
+        mediad "$URL"
+        ;;
+    "*imgur.com/a/?????*")
+        openBrowser
+        ;;
+    "*imgur.com/???????*")
+        URL=$(printf '%s\n' "${URL}.png")
+        mediad "$URL"
+        ;;
+    "*.mkv"|"*.mp4"|"*.ogv"|"*youtu.be/*"|"*youtube.com/watch*"|\
+    "*.googlevideo.com/videoplayback*")
+        exec mpv "$URL" --really-quiet &
+        ;;
+    "*twitch.tv/*")
+        type livestreamer 2>&1 > /dev/null && {
+            livestreamer "$URL" source -Q
+        } || {
+            mpv "$URL"
+        }
+        ;;
+    "gopher://*")
+        urxvt -e cgo "$URL"
+        ;;
+    "*.txt"|"*ix.io/*"|"*p.iotek.org/*"|"*sprunge.us/*"|"*bpaste.net/*"|\
+    "*pastebin.com/raw*"|"*pbin.in/raw*")
+        urxvt -name "paste" -e zsh -i -c "curl -s '$URL' | $EDITOR -"
+        ;;
+    "*paste.lisp.org/*"|"*pastebin.com/*"|"*pbin.in/*")
+        rawp
+        urxvt -name "paste" -e zsh -i -c "curl -s '$URL' | $EDITOR -"
+        ;;
+    *)
+        openBrowser
+        ;;
+esac

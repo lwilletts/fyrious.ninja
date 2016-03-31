@@ -2,7 +2,7 @@
 # URL:         https://01.org/connman
 # Packager:    wildefyr, me at wildefyr dot net
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
-# Depends on:  dbus gnutils glib openconnect openvpn vpnc wpa_supplicant
+# Depends on:  dbus gnutls glib openconnect openvpn vpnc wpa_supplicant
 # Optional:    pptp bluez
 
 name=connman

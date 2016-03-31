@@ -1,0 +1,15 @@
+#!/bin/sh
+
+DOMAIN="${DOMAIN:-wildefyr.net}"
+CONFIG="${CONFIG:-/usr/local/etc/le-renew.ini}"
+WEBPATH="${WEBPATH:-/builds/wildefyr.net}"
+LEPATH="${LEPATH:-/builds/letsencrypt}"
+
+CERT="${CERT:-/etc/letsencrypt/live/${DOMAIN}/fullchain.pen}"
+
+test ! -f "$CONFIG" && {
+    printf '%s\n' "Config does not exist!"
+    exit 1
+}
+
+${LEPATH}/letsencrypt-auto certonly -a webroot --renew-by-default --config $CONFIG

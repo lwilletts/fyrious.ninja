@@ -1,0 +1,121 @@
+#!/bin/bash
+#
+# wildefyr - 2016 (c) wtfpl
+# simple notify script that uses fyre
+# depends on: lemonbar txtw && a sane unix environment
+# inspired by: http://blog.z3bra.org/2014/04/pop-it-up.html
+
+ARGS="$@"
+
+usage() {
+    cat << EOF
+Usage: $(basename $0) [-d seconds] [-D] [-m message]
+    -d : Duration of notification in seconds.
+    -D : Disable notifiction sound.
+    -m : Message to display.
+    -h : Print this help.
+
+Exit codes:
+    0 : Progran ran succesfully.
+    1 : Argument Error
+    2 : Dependacy Error
+EOF
+
+    test -z $1 && exit 0 || exit $1
+}
+
+createDialog() {
+    . fyrerc.sh
+
+    # kill notify on new run
+    POPNAME='pop'
+    pidof -s $POPNAME 2>&1 > /dev/null && kill -9 $(pidof -s $POPNAME)
+
+    POPUPFILE=${POPUPFILE:-/tmp/.popup}
+
+    txtw -s 12 "$@" > $POPUPFILE
+    barw=$(cat /tmp/.popup | awk '{for (i=1;i<=NF;++i) total += $i; print total}')
+    test -f $POPUPFILE && rm $POPUPFILE
+
+    bary=$((TGAP - 40 + BW))
+    barw=$((barw + 20 - 2*BW))
+    barh=$((XGAP - 2*BW))
+
+    barx=$((SW - XGAP - barw - 500 - BW))
+
+    bar_bg='#03070B'
+    bar_fg='#D7D7D7'
+    bar_font=$(awk '/.font/ {print $3}' < ~/.Xresources)
+
+    test $SOUNDENABLED = "true" && playNotificationSound
+
+    test $SOUNDENABLED = "true" && {
+        DURATION=$(soxi $NOTIFICATION | \
+        awk '/Duration/ {printf "%s", $3}' | sed 's/00//g; s/://g')
+    } || {
+        DURATION=3
+    }
+
+    (echo "%{c}$@"; sleep $DURATION) | {
+        exec -a $POPNAME lemonbar -d -g ${barw}x${barh}+${barx}+${bary} -B${bar_bg} -F${bar_fg} -f ${bar_font}
+    }
+
+    killall backbar -q
+}
+
+playNotificationSound() {
+    pkill "notification" -f
+    play -q $NOTIFICATION 2>&1 > /dev/null &
+}
+
+validateDeps() {
+    type txtw 2>&1 > /dev/null || {
+        printf '%s\n' "txtw has not been found on your \$PATH."
+        exit 2
+    }
+}
+
+main() {
+    # has the user inputed *anything*
+    test $# -eq 0 && usage 1
+    validateDeps
+
+    NOTIFICATION=${NOTIFICATION:-~/files/sounds/notification.mp3}
+    SOUNDENABLED=true
+
+    for arg in "$@"; do
+        case $arg in
+            -d)
+                DURATION=$arg
+                DURATIONFLAG=false
+                test "$MESSAGEFLAG" = "true" && MESSAGEFLAG=false
+                ;;
+            -D)
+                SOUNDENABLED=false
+                test "$MESSAGEFLAG" = "true" && MESSAGEFLAG=false
+                ;;
+            -?)
+                test "$MESSAGEFLAG" = "true" && MESSAGEFLAG=false
+                ;;
+            -h) usage 0 ;;
+        esac
+
+        test "$MESSAGEFLAG" = "true" && \
+            ARGSTRING="$ARGSTRING $arg"
+
+        case $arg in
+            -m) MESSAGEFLAG=true  ;;
+            -d) DURATIONFLAG=true ;;
+        esac
+
+    done
+
+    test -z "$ARGSTRING" && {
+        printf '%s\n' "No message to print."
+    } || {
+        createDialog $ARGSTRING
+    }
+
+}
+
+main $ARGS

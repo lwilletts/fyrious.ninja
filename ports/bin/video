@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# File       : /home/wildefyr/v
+# Maintainer : Wildefyr | http://wildefyr.net
+
+# TODO: finish find upgrade
+
+if [ -z $1 ]; then
+    exit
+fi
+
+find /media/storage/videos -type f -name "$1*"
+
+for i in $(seq $(cat $videolist | wc -l)); do
+    video=$(cat $videolist | head -n $i | tail -1)
+    if [[ $video == *"$2"* ]]; then
+        echo $video > $tmpvideolist
+    fi
+done
+
+if [ $(cat $tmpvideolist | wc -l) -eq 1 ]; then
+    mpv "$(cat $tmpvideolist)" > /dev/null > /dev/null &!
+fi

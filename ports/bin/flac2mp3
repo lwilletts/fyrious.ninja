@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) CC
+# quick n' dirty script to transfer folder from wav to flac
+
+for file in *.flac; do
+    ffmpeg -i "$file" -codec:a libmp3lame -b:a 320K \
+        "$(printf '%s\n' "$file" | sed 's/.flac/.mp3/')"
+done

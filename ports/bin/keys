@@ -1,0 +1,30 @@
+#!/bin/sh
+
+xcapectrl() {
+    type xcape 2>&1 > /dev/null && {
+        pgrep xcape 2>&1 > /dev/null && pkill xcape 2>&1 > /dev/null || \
+            xcape -e 'Control_L=Escape' -t 500
+    }
+}
+
+poker() {
+    xmodmap $HOME/.bindings/poker
+    xcapectrl
+}
+
+chromebook() {
+    xmodmap $HOME/.bindings/chromebook
+    xcapectrl
+}
+
+case $1 in
+    poker)      poker      ;;
+    chromebook) chromebook ;;
+    *)
+        test "$(hostname)" = "fyr-chromebook" && {
+            chromebook
+        } || {
+            poker
+        }
+        ;;
+esac

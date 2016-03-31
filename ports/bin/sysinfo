@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) wtfpl
+# a fairly nice info script
+
+f0='[30m'; f1='[31m'; f2='[32m'; f3='[33m'
+f4='[34m'; f5='[35m'; f6='[36m'; f7='[37m'
+b0='[40m'; b1='[41m'; b2='[42m'; b4='[44m'
+b4='[44m'; b5='[45m'; b6='[46m'; b7='[47m'
+B='[1m'; R='[0m'; I='[7m'
+
+USER="$USER"
+HOST="$(hostname)"
+
+test "$HOST" = "fyr-crux" && {
+    SYS="$(crux)"
+    PACK="$(pkginfo -i | wc -l)"
+} || {
+    SYS="DEBIAN version $(cat /etc/debian_version)"
+    PACK=$(dpkg-query -f '${binary:Package}\n' -W | wc -l)
+}
+
+KERN="$(uname -sr)"
+TIME="$(uptime -p | sed s:"up "::)"
+
+ps ux | grep -v grep | grep "mpv" -q && {
+    M="$(mpvc -f '%artist% - %title%')"
+}
+
+clear=$(tput sgr0)
+clear
+
+cat << EOF
+$(wild)
+$R
+$f7$B$I$b6█$I$b0 $USER@$HOST $I$b7 $R
+$f7$B$I$b6█$I$b0 $KERN - $TIME $R
+$f7$B$I$b6█$I$b0 $SYS - $PACK Packages $R
+EOF
+
+test ! -z "$M" && {
+    cat << MUSIC
+$f7$B$I$b6█$I$b0 $M $R
+MUSIC
+}
+
+printf '\n'

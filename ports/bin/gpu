@@ -1,0 +1,50 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) CC
+# get nvidia gpu information - relies on nvidia-smi
+
+ARGS="$@"
+
+usage () {
+    cat >&2 << EOF
+l: List gpu(s).
+d: List current driver.
+p: Print power draw of gpu.
+t: Print tempreture of gpu.
+EOF
+
+    test "$#" -eq 0 || exit $1
+}
+
+driver() {
+    nvidia-smi -q | awk '/Driver Version/ {print $4}'
+}
+
+listgpu() {
+    nvidia-smi -L | cut -d\  -f 3-5
+}
+
+gputemp() {
+    nvidia-smi -q -d TEMPERATURE | awk '/Current/ {print $5}'
+}
+
+powerdraw() {
+    nvidia-smi -q -d POWER | awk '/Power Draw/ {print $4,$5}'
+}
+
+main() {
+    type nvidia-smi 2>&1 > /dev/null || {
+        printf '%s\n' "nvidia-smi is not installed on your $$PATH."
+        exit 1
+    }
+
+    case $1 in
+        d) driver    ;;
+        l) listgpu   ;;
+        t) gputemp   ;;
+        p) powerdraw ;;
+        *) usage 0   ;;
+    esac
+}
+
+main $ARGS

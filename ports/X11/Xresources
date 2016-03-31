@@ -1,0 +1,35 @@
+#include ".colours/fyry"
+
+URxvt.modifier : mod3
+
+/* Font */
+URxvt.font     : -benis-lemon-medium-r-normal--10-110-75-75-m-50-ISO10646-1
+URxvt.boldFont : -benis-lemon-medium-r-normal--10-110-75-75-m-50-ISO10646-1
+
+/* Transparency */
+URxvt.transparent : False
+Urxvt.depth       : 32
+URxvt.shading     : 20
+
+/* Bell */
+URxvt.urgentOnBell : 1
+URxvt.visualBell   : 0
+
+/* Padding */
+URxvt.internalBorder : 10
+URxvt.externalBorder : 0
+URxvt.linespace      : 0
+Urxvt.saveLines      : 16384
+URxvt.scrollBar      : 0
+
+/* Blinking cursor */
+URxvt.cursorBlink     : 1
+Urxvt.cursorUnderline : 0
+URxvt.pointerBlank    : 1
+
+/* Opening urls */
+URxvt.perl-ext-common        : default,clipboard,url-select
+URxvt.keysym.M-e             : perl:url-select:select_next
+URxvt.url-select.launcher    : load
+URxvt.url-select.underline   : true
+URxvt.keysym.M-y             : perl:clipboard:copy

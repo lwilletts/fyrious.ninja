@@ -1,0 +1,487 @@
+" fyr <me@wildefyr.net>
+" ░░░▒▒▒▓▓██░██▓▓▒▒▒░░░
+
+    " vim-plug
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" auto install plug if not found
+if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/vim-easy-align'                          " Align Text
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'                                 " fuzzyFile
+Plug 'junegunn/vim-pseudocl'                            " improved vimfu?
+Plug 'junegunn/vim-oblique'                             " improved / search
+Plug 'tpope/vim-surround'                               " surround text objects
+Plug 'tpope/vim-commentary'                             " comments made Easier
+Plug 'tpope/vim-repeat'                                 " repeat plugin commands
+Plug 'scrooloose/syntastic'                             " syntax checker
+Plug 'ervandew/supertab'                                " THE RETURN
+Plug 'beloglazov/vim-online-thesaurus'                  " thesaurus
+Plug 'rbgrouleff/bclose.vim'                            " close buffers
+Plug 'rstacruz/vim-closer'                              " autocomplete brackets
+Plug 'wellle/targets.vim'                               " more text objects
+Plug 'Wildefyr/vim-fat-finger'                          " autocorrect
+Plug 'benekastah/neomake'                               " async make
+Plug 'baskerville/vim-sxhkdrc'                          " baskerbae
+
+if has('nvim')
+    Plug 'Shougo/deoplete.nvim'                         " the future
+endif
+
+call plug#end()
+
+    " vim-plug
+nmap <Leader>Vu :PlugUpdate<CR>
+nmap <Leader>Vi :PlugUpgrade<CR>
+nmap <Leader>Vc :PlugClean<CR>
+nmap <Leader>Vs :PlugStatus<CR>
+
+    " vim-easy-align
+nmap ga <Plug>(EasyAlign)
+xmap ga <Plug>(EasyAlign)
+let g:easy_align_delimiters = {
+\ '>': { 'pattern': '>>\|=>\|>' },
+\ '/': {
+\     'pattern':         '//\+\|/\*\|\*/',
+\     'delimiter_align': 'l',
+\     'ignore_groups':   ['!Comment'] },
+\ ']': {
+\     'pattern':       '[[\]]',
+\     'left_margin':   0,
+\     'right_margin':  0,
+\     'stick_to_left': 0
+\   },
+\ ')': {
+\     'pattern':       '[()]',
+\     'left_margin':   0,
+\     'right_margin':  0,
+\     'stick_to_left': 0
+\   },
+\ 'd': {
+\     'pattern':      ' \(\S\+\s*[;=]\)\@=',
+\     'left_margin':  0,
+\     'right_margin': 0
+\   },
+\ ';': {
+\     'pattern':      ';',
+\     'left_margin':  1,
+\     'right_margin': 0
+\   }
+\ }
+
+    " fzf
+nmap <Leader>f :FZF -m <CR>
+nmap <Leader>F :FZF -m ~/<CR>
+nmap <Leader>b :FZF -m /builds/<CR>
+nmap <Leader>l :Buffers<CR>
+nmap <Leader>m :Marks<CR>
+nmap <Leader>/ :BLines<CR>
+
+    " vim-oblique
+let g:oblique#incsearch_highlight_all = 1
+let g:oblique#clear_highlight = 1
+
+    " vim-surround
+nmap sw ysiw
+nmap sW ysiW
+nmap sl yss
+vmap s S
+
+    " vim-commentary
+autocmd FileType muttrc setlocal commentstring=#\ %s
+
+    " syntastic
+nmap <Leader>e :Errors<CR>
+let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_loc_list_height = 5
+let g:syntastic_auto_jump = 0
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_cursor_column = 0
+let g:syntastic_error_symbol = ">>"
+let g:syntastic_warning_symbol = "!!"
+let g:syntastic_style_warning_symbol = "??"
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_python_checkers = ['python']
+let g:syntastic_c_compiler = 'gcc'
+let g:syntastic_c_compiler_options = '-std=c11'
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = '-std=c++14'
+let g_syntastic_shell = "/bin/sh"
+
+    " supertab
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
+    " vim-online-thesaurus
+let g:online_thesaurus_map_keys = 0
+nnoremap zT :OnlineThesaurusCurrentWord<CR>
+
+    " vimpager
+let g:vimpager_use_gvim = 0
+let g:vimpager_less_mode = 0
+let g:vimpager_passthrough = 0
+
+    " vim-closer
+imap <C-j> <CR>
+
+    " Remapping Keys
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+nnoremap K <nop>
+map <Space> <Leader>
+
+nmap <Leader>c :noh<CR>
+
+" edit and source vimrc on save
+nmap <silent> <Leader>E :next $MYVIMRC<CR>
+augroup VimReload
+    autocmd!
+    autocmd BufWritePost $MYVIMRC source $MYVIMRC
+augroup END
+
+" closing vim
+nmap <Leader>q :Bclose!<CR>
+nmap <C-q> :qa!<CR>
+nmap <Leader>x :xa!<CR>
+nmap <Leader>w :w!<CR>
+nmap <Leader>W :wa!<CR>
+nmap <C-s> :silent w! !sudo tee % > /dev/null<CR>
+
+" motions
+nnoremap <C-j> <C-f>
+nnoremap <C-k> <C-b>
+nmap <Leader><Space> %
+
+" manipulating text in normal mode
+map <C-h> i<C-h><Esc>
+nnoremap <Tab> i<Tab><Esc>l
+nnoremap <CR> i<CR><ESC>
+
+" formatting options
+vmap Q gq
+nmap <Leader>gq vipgq
+nmap <Leader>gc vipgc
+
+" better pasting
+xnoremap p pgvy
+
+" swapping like for like keys
+nnoremap 0 ^
+nnoremap ^ 0
+nnoremap ` '
+nnoremap ' `
+nnoremap # *
+nnoremap * #
+
+" clean whitespace
+nmap <Leader>z mz:%s/\s\+$<CR>'z:w<CR>:noh<CR>
+
+" toggles
+nmap <Leader>v :set spell!<CR>
+nmap <Leader>n :set number!<CR>
+
+" visual mappings
+nnoremap v <C-v>
+nnoremap <C-v> v
+vnoremap j gj
+vnoremap k gk
+vnoremap 0 g^
+vnoremap $ g$
+vnoremap < <gv
+vnoremap > >gv
+
+" buffers
+nnoremap <C-n> :bnext<CR>
+nnoremap <C-p> :bprev<CR>
+
+" tabs
+nmap <Leader>tn :tabnew %<CR>
+nmap <Leader>to :tabonly<CR>
+nmap <Leader>tc :tabclose<CR>
+nmap <Leader>ts :tab sball<CR>:tabnext<CR>
+nnoremap H :tabprevious<CR>
+nnoremap L :tabnext<CR>
+
+" reverse splits
+nnoremap <C-w>s <C-w>v
+nnoremap <C-w>v <C-w>s
+
+" insert common snippets
+nmap <Leader>'\ awildefyr - 2016 (c)
+nmap <Leader>'} awildefyr, me at wildefyr dot net<ESC>
+
+" transcribing shortcuts
+nmap <Leader>a :.!mpvc -f \%time\%<CR>0i[<ESC>$xa]<ESC>
+nmap S 1z=
+nmap sn ]s
+nmap sp [s
+
+    " macros
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let @m="0ilet @a='A'"
+
+    " functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" open current file with <program>
+function! Openwith(program)
+    silent! execute "!" . a:program . " " . expand('%:p') . " &"
+endfunction
+
+command! -bang -nargs=* Openwith call Openwith(<q-args>)
+
+" chmod +x current file
+function! Chmox()
+    execute "!chmod +x " . expand('%:p')
+endfunction
+
+command! Chmox call Chmox()
+
+nmap <silent> <Leader>C :Chmox<CR>
+
+function! s:RotateString(string)
+    let split_string = split(a:string, '\zs')
+    return join(split_string[-1:] + split_string[:-2], '')
+endfunction
+
+function! s:RotateLine(line, leading_whitespace, trailing_whitespace)
+    return substitute(
+        \ a:line,
+        \ '^\(' . a:leading_whitespace . '\)\(.\{-}\)\(' . a:trailing_whitespace . '\)$',
+        \ '\=submatch(1) . <SID>RotateString(submatch(2)) . submatch(3)',
+        \ ''
+    \ )
+endfunction
+
+function! s:RotateLines()
+    set nolist
+    let saved_view = winsaveview()
+    let first_visible_line = line('w0')
+    let last_visible_line = line('w$')
+    let lines = getline(first_visible_line, last_visible_line)
+    let leading_whitespace = map(
+        \ range(len(lines)),
+        \ 'matchstr(lines[v:val], ''^\s*'')'
+    \ )
+    let trailing_whitespace = map(
+        \ range(len(lines)),
+        \ 'matchstr(lines[v:val], ''\s*$'')'
+    \ )
+    try
+        while 1 " <C-c> to exit
+            let lines = map(
+                \ range(len(lines)),
+                \ '<SID>RotateLine(lines[v:val], leading_whitespace[v:val], trailing_whitespace[v:val])'
+            \ )
+            call setline(first_visible_line, lines)
+            redraw
+            sleep 50m
+        endwhile
+    finally
+        set list
+        if &modified
+            silent undo
+        endif
+        call winrestview(saved_view)
+    endtry
+endfunction
+
+nnoremap <silent> <Plug>(RotateLines) :<C-u>call <SID>RotateLines()<CR>
+nmap <leader>r <Plug>(RotateLines)
+
+    " Visual Settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set title
+set titlestring=vim:\ %t titlelen=50
+
+set shortmess+=I
+set equalalways
+set noshowcmd
+set noshowmode
+set laststatus=0
+
+syntax on
+colorscheme subtle
+set colorcolumn=80
+
+set scrolloff=999
+set virtualedit=block
+
+set fillchars=vert:\ ,
+set splitright
+set splitbelow
+
+set showmatch
+
+set hidden
+
+set lazyredraw
+
+    " General Settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" set zsh as our default shell
+let shell="/bin/zsh"
+
+" enable annoying mouse
+set mouse+=a
+
+" autosave file on focus loss
+set autowrite
+autocmd FocusLost * silent! :wa
+
+" stop leader timeout
+set ttimeout
+set notimeout
+
+" sane backspace
+set backspace=indent,eol,start
+set whichwrap+=<,>,h,l
+
+" sane searching
+set incsearch ignorecase smartcase
+
+" better wildcard matching
+set wildmenu
+set wildmode=longest:full,full
+set wildignore+=*.o,*~,*.pyc,*/.git/*
+set wildignore+=*.gif,*.png,*.jp*
+
+" indentation and 80 characters per line
+set tw=80
+set ts=4 sw=4 sts=4
+set smarttab expandtab
+
+" clean whitespace upon save
+" autocmd BufWritePre * :%s/\s\+$//e
+
+filetype plugin indent on
+
+" disable annoying comment on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" custom indent options
+autocmd FileType txt setlocal tw=0 spell noexpandtab wrap linebreak
+autocmd FileType css setlocal ts=4 sw=4 sts=4
+autocmd FileType html setlocal ts=2 sw=2 sts=2
+autocmd FileType ruby setlocal ts=2 sw=2 sts=2
+autocmd FileType python setlocal ts=4 sw=4 sts=4
+autocmd FileType c setlocal ts=8 sw=8 sts=8 noexpandtab " kernal style
+
+" create marks based on filetype
+autocmd BufLeave *.sh,*.zsh         normal! mS
+autocmd BufLeave *.css,*.less,*scss normal! mC
+autocmd BufLeave *.html             normal! mH
+autocmd BufLeave *.js               normal! mJ
+autocmd BufLeave *.php              normal! mP
+autocmd BufLeave vimrc,*.vim        normal! mV
+
+" more
+autocmd BufNewFile,BufRead *bgc setlocal filetype=sh
+autocmd BufNewFile,BufRead *Pkgfile setlocal filetype=sh noet
+autocmd BufNewFile,BufRead *.gitconfig setlocal filetype=gitconfig noet
+" fuck you zsh
+autocmd BufNewFile,BufRead *.zsh setlocal filetype=sh
+autocmd BufNewFile,BufRead *.zprofile setlocal filetype=sh
+
+set history=1000
+
+set backup
+set backupdir=~/.vim/backup
+if !isdirectory(expand(&backupdir))
+    call mkdir(expand(&backupdir), "p")
+endif
+
+if has('persistent_undo')
+    set undofile
+    set undoreload=5000
+    set undolevels=5000
+    set undodir=~/.vim/undo
+
+    if !isdirectory(expand(&undodir))
+        call mkdir(expand(&undodir), "p")
+    endif
+endif
+
+set noswapfile
+
+" fuck the warning
+au BufEnter * set noro
+
+" when editing a file, always jump to the last known cursor position
+augroup vimrcEx
+    autocmd!
+    autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \ exe "normal! g`\"" |
+    \ endif
+augroup END
+
+if has('nvim')
+    " settings
+    set list
+    set breakindent
+
+    " deoplete
+    let g:deoplete#enable_at_startup = 1
+    let g:deoplete#enable_smart_case = 1
+    let g:deoplete#enable_ignore_case = 0
+    let g:deoplete#auto_complete_start_length = 1
+    inoremap <expr><C-h>
+    \ deoplete#mappings#smart_close_popup()."\<C-h>"
+
+    " sync neovim instances using viminfo
+    augroup nvimrc_aucmd
+        autocmd!
+        autocmd CursorHold,FocusGained,FocusLost * rshada|wshada
+    augroup END
+
+    " jump to insert mode automatically
+    autocmd BufEnter * if &buftype == "terminal" | startinsert | endif
+
+    " keybindings
+    tnoremap <C-e> <C-\><C-n>
+
+    nnoremap <m-j> <c-w>j
+    nnoremap <m-k> <c-w>k
+    nnoremap <m-h> <c-w>h
+    nnoremap <m-l> <c-w>l
+    vnoremap <m-j> <c-\><c-n><c-w>j
+    vnoremap <m-k> <c-\><c-n><c-w>k
+    vnoremap <m-h> <c-\><c-n><c-w>h
+    vnoremap <m-l> <c-\><c-n><c-w>l
+    inoremap <m-j> <c-\><c-n><c-w>j
+    inoremap <m-k> <c-\><c-n><c-w>k
+    inoremap <m-h> <c-\><c-n><c-w>h
+    inoremap <m-l> <c-\><c-n><c-w>l
+    cnoremap <m-j> <c-\><c-n><c-w>j
+    cnoremap <m-k> <c-\><c-n><c-w>k
+    cnoremap <m-h> <c-\><c-n><c-w>h
+    cnoremap <m-l> <c-\><c-n><c-w>l
+    tnoremap <m-j> <c-\><c-n><c-w>j
+    tnoremap <m-k> <c-\><c-n><c-w>k
+    tnoremap <m-h> <c-\><c-n><c-w>h
+    tnoremap <m-l> <c-\><c-n><c-w>l
+
+    nmap <Leader>dd :term<CR>
+    nmap <Leader>dv :split<CR>:term<CR>
+    nmap <Leader>ds :vsplit<CR>:term<CR>
+
+    " functions
+    function! QuickTerminal()
+        20new
+        terminal
+        file quickterm
+    endfunction
+
+    nnoremap <silent> <Leader>tt :call QuickTerminal()<CR>
+endif

@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) CC
+# dirty oneliner for uploading stuff to wildefyr.net
+
+FILES="$@"
+rsync -avr ${FILES} wildefyr.net:/builds/wildefyr.net/media -h --progress

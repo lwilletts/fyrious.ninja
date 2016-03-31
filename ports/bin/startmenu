@@ -1,0 +1,42 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) CC
+# sick console menu
+
+. ~/.zsh/environment.zsh
+
+W='[37m'; R='[0m'
+
+prompt() {
+    $BIN/sysinfo
+    printf '%s'"${f7}>> ${R}"
+}
+
+prompt
+
+while read -r action; do
+    case "$action" in
+        e|exit)     exit                         ;;
+        x|xinit)    xinit                        ;;
+        z|zsh)      zsh                          ;;
+        s|ssh)      con                          ;;
+        d|dtach)    dtach -A /tmp/irc -z weechat ;;
+        m|muxserv)  tmux attach || tmux new      ;;
+        p|poweroff)
+            type hostnamectl 2>&1 > /dev/null && {
+                systemctl poweroff
+            } || {
+                sudo poweroff 2>/dev/null
+            }
+            ;;
+        r|reboot)
+            type hostnamectl 2>&1 > /dev/null && {
+                systemctl reboot
+            } || {
+                sudo reboot 2>/dev/null
+            }
+            ;;
+    esac
+
+    prompt
+done

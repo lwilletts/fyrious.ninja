@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+# I'm mad and this is the only way to smother my rage
+
+file=$1
+
+test ! -z $file && {
+    test -f $file && {
+        case $file in
+            *.tar.bz2) tar xvjf "$file"   ;;
+            *.tar.gz)  tar xvf "$file"   ;;
+            *.tar.xz)  tar xvf "$file"   ;;
+            *.bz2)     bzip2 "$file"      ;;
+            *.rar)     unrar e "$file"    ;;
+            *.gz)      gunzip "$file"     ;;
+            *.tar)     tar xvf "$file"    ;;
+            *.tbz2)    tar xvjf "$file"   ;;
+            *.tgz)     tar xvzf "$file"   ;;
+            *.zip)     7z x "$file"       ;;
+            *.Z)       uncompress "$file" ;;
+            *.7z)      7z x "$file"       ;;
+            *)
+                printf '%s\n' "Unrecognized archival format."
+                exit 3
+                ;;
+        esac
+
+        rm -f "$file"
+    } || {
+        printf '%s\n' "'$file' is not a valid file."
+        exit 2
+    }
+} || {
+    printf '%s\n' "Please provide a file to extract."
+    exit 1
+}
+

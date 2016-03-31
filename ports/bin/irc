@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# wildefyr - 2016 (c) MIT
+# wrapper around ii to create a minimal client
+
+usage() {
+    
+}
+
+startServers() {
+    
+}
