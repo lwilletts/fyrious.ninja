@@ -133,7 +133,7 @@ f:8d6aac261895f35a77d613fccf424786:sox/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mosh/.md5sum
 f:285259ceba90e0e70543e6664e493282:mosh/.footprint
 f:7a7e9063e63c6b3a9785cb63db26b804:mosh/Pkgfile
-f:40977ee3c5020ed0bbb13e03cfe6ddc7:wildefyr.httpup
+f:a6a0b63ecde19fd06a074b53312a79a9:wildefyr.httpup
 f:9de1ab16353932e958bcb382ed5f28fa:cdrtools/.md5sum
 f:8b956805d36e914ba2f02a34a4c18095:cdrtools/.footprint
 f:ade0bad7c946e3045ff13d3b2277f8de:cdrtools/Pkgfile
@@ -192,7 +192,7 @@ f:52059f93ccf907f06066f5a779aa6270:mprime/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.footprint
 f:59887367e491c14935f82c32edb90b91:terminibbles/Pkgfile
-f:94f897ed9f0760ac422963e404f7b61b:wildefyr.git
+f:c542b413a39c093afbd85b833498b29a:wildefyr.git
 f:d41d8cd98f00b204e9800998ecf8427e:evtest/.md5sum
 f:05b10d9dfa4f9bcd97458218bae90dc5:evtest/.footprint
 f:af1243944102e2faa9193d48360a6c4e:evtest/Pkgfile
