@@ -93,7 +93,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:nvidia-32/.32bit
 f:2f6a8a3fa2162352e089742854da9d0a:nvidia-32/.footprint
 f:9bbad24bad493bee358c003be5657a9f:nvidia-32/README
 f:edc3a5ae8874049d0189f708bd8040f1:nvidia-32/Pkgfile
-f:f72896a4ae14ae09d98a10cae394d091:index.html
+f:37ff8d1cceba76baa72c1c874a06f3e8:index.html
 f:92f1e78d8a336304e5d6588618b5d3cf:udftools/udftools-1.0.0b3.patch
 f:9d3820b017f2f39f8d3faca12381bcdd:udftools/udftools-limits.patch
 f:ff606c797dbfc04a07781b5cadf2cb6d:udftools/udftools-open_missing_mode.patch
@@ -123,7 +123,7 @@ f:a55aa39ea068a214b3fb39d8e2f3ff48:winetricks/.footprint
 f:6a9a33b702f90030363dca58de86208f:winetricks/Pkgfile
 f:0409dff762178cf8423c19f438a0486a:openconnect/.md5sum
 f:00a342470d8bae95642ec9433b6fb7e3:openconnect/.footprint
-f:34c2318427e9a298e0417e36c8a342a2:openconnect/Pkgfile
+f:0947a34b392ecd047da398d33eb935bd:openconnect/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mps-youtube/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:mps-youtube/.footprint
 f:c0fb4a821a184571b3e108f4bb0a7535:mps-youtube/Pkgfile
@@ -218,6 +218,8 @@ f:0831a0d93242b04dfb50c9ee0970f3b2:xautomation/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:txtw/.md5sum
 f:144c8fbe1c048aeea1c46ab7435ad022:txtw/.footprint
 f:4e944124549d6c904557a45c78665086:txtw/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:connman-ncurses/.md5sum
+f:c957ba86a50ea7dcb3cc63cd8d932f46:connman-ncurses/.footprint
 f:0c716ae140504a666780e8ab434a31ea:connman-ncurses/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wendy/.md5sum
 f:6c6d750fa9deee40e40854162133e888:wendy/.footprint
