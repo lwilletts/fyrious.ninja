@@ -197,8 +197,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:evtest/.md5sum
 f:05b10d9dfa4f9bcd97458218bae90dc5:evtest/.footprint
 f:af1243944102e2faa9193d48360a6c4e:evtest/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vimpager/.md5sum
-f:ceb766a1e2c1d2f5a7dc4af38f82998f:vimpager/.footprint
-f:71cfab70969a0254b013581c89cc5576:vimpager/Pkgfile
+f:9abb789988ca50a70941cdad15e85ac5:vimpager/.footprint
+f:8ddb22e4fd710d6bc6c156b4d1ba395a:vimpager/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:urxvt-perls/.md5sum
 f:4c7887b4b73686312a4b40673bc47ce1:urxvt-perls/.footprint
 f:d785c8a6f94d088aa15e6f521d669e8e:urxvt-perls/Pkgfile
