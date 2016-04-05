@@ -1,0 +1,4 @@
+#!/bin/sh
+
+printf '%s\n' "Rebuild deployment:"
+ssh server "cd /builds/wildefyr.net; git pull && make builds"
