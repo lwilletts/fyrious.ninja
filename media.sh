@@ -37,6 +37,8 @@ EOF
 
 # generate html
 generate() {
+    sleep 1
+
     html
 
     for dir in */; do
