@@ -60,6 +60,7 @@ d:gitio
 d:ioup
 d:lel
 d:paper-icon-theme
+d:ttyload
 f:aa0a0b6bfb4703d04a6da2911a378722:.gitports
 f:a429ee17bb7d60405edd60409c71ae65:cava/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:cava/.md5sum
@@ -278,3 +279,6 @@ f:385b14476c053c61c0b87bd53a535fa9:paper-icon-theme/Pkgfile
 f:f77c6e31f9aed29d93c8fb2ce50f186b:README.md
 f:c542b413a39c093afbd85b833498b29a:wildefyr.git
 f:a6a0b63ecde19fd06a074b53312a79a9:wildefyr.httpup
+f:95ee47e334c29ff360b2d2f6b52c636c:ttyload/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:ttyload/.md5sum
+f:754c26c96206093e722692e16e381aca:ttyload/Pkgfile
