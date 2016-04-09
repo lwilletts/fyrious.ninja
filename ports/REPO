@@ -191,12 +191,12 @@ f:0350499287f91d3166c41936748cb450:sxiv/config.h
 f:8714c95b45a2577aa1df5af6335ae45c:tcc/.footprint
 f:e886e625d7efb00653a82e8b57e347db:tcc/.md5sum
 f:2d4bb9d908e55e9c4353358d1c6b6a09:tcc/Pkgfile
-f:8ebfbdc457f4cc81eda9d61f79dbce4e:teamspeak/.footprint
-f:b729ca8138afebcb68d8da14a5d4039d:teamspeak/.md5sum
-f:11aef6f6f343d6d968d09e4dbfa57176:teamspeak/Pkgfile
 f:19f103384e4c1a0aafc8fed44de0c87b:teamspeak/icon.xpm
 f:98e987a42511f159fa2228f5e0bffed1:teamspeak/teamspeak3.desktop
 f:170fcbb1b468ce4f3dba7ee3fb2a1c6d:teamspeak/teamspeak3.launcher
+f:3f9741c309f21234bf4d61869034ac6b:teamspeak/.footprint
+f:0ce812956e0bd54cf7d21720ec4943e2:teamspeak/.md5sum
+f:b0a77cb2f8715d025665621dbef31083:teamspeak/Pkgfile
 f:f3a7d03657d084ca3c4ba4cdea10ded2:terminibbles/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.md5sum
 f:59887367e491c14935f82c32edb90b91:terminibbles/Pkgfile
