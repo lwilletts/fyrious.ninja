@@ -105,10 +105,9 @@ f:dfc91242343d1bf3dcbf856709d2e1d1:gitio/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:9fb3546e8ef6b0df2bff593048f28ea5:gpick/Pkgfile
-f:72a1a1eea651ec1201c9bc1b42bc4e07:htop-vi/.footprint
-f:b04eee3716c736b969cd2f991d05cd01:htop-vi/.md5sum
-f:5681925ff24ca1d25337942841ac91c5:htop-vi/Pkgfile
-f:ca910399c0195f0250448bb93013870e:htop-vi/vim-keybindings.patch
+f:21354eee55b1a87feaa01727884149bd:htop-vi/.footprint
+f:4a15c0af6f7da9e0cce3d878cc0ec46b:htop-vi/.md5sum
+f:ef0beda3ce942a6f23c21512818f0602:htop-vi/Pkgfile
 f:ea023c093ee52e9ea4ea47bc9f26c531:ii/.footprint
 f:5cedac19acd739a57d45b2c201498a79:ii/.md5sum
 f:4ae644e2b29b2ccb9fccc5c5bdcfce21:ii/Pkgfile
