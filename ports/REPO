@@ -191,7 +191,7 @@ f:ca781bcf88439096d32ef8b087ec834b:pip3/Pkgfile
 f:f058df5f7452f031c4d84b2b2244dd17:pytg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:pytg/.md5sum
 f:0e79d88b8d1aa6d87feb56b05fbb564b:pytg/Pkgfile
-f:18a71ab83f9d520974e654a07f1493ee:pytg/README
+f:e739d740fee29eb5aba5ebe85951bf4a:pytg/README
 f:2be65dcb06d753d13198897df61940de:setuptools3/.footprint
 f:e5fa1323607af4dfbdba95e05925d331:setuptools3/.md5sum
 f:ced2d3d5765f870bf8388be71def738d:setuptools3/Pkgfile
