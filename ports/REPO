@@ -151,11 +151,11 @@ f:64a6eaa20a32e5beca0c85013b5ae102:neomutt/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:neomutt/.md5sum
 f:9fa939bd872eebe6696d7e0b8a1cd142:neomutt/Pkgfile
 f:eb1b1c17dd5f2e183c8c84c3d5232700:nginx/.footprint
-f:9c902fbf30996a7667765926e1566b59:nginx/.md5sum
-f:ac30063b7d53a924409cb379d25a6123:nginx/Pkgfile
 f:93b358681200fe294581cb559d529aee:nginx/nginx.conf
 f:06712aa2b72397850b0725f2e9d20627:nginx/nginx.rc
 f:b91db8265eed953ae3d0dabe6738dd4c:nginx/pre-install
+f:cc3c139e4548693503b5651b3afc494e:nginx/.md5sum
+f:296b1ba78fff7c152bc58b7eb5782e27:nginx/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:nvidia-32/.32bit
 f:2f6a8a3fa2162352e089742854da9d0a:nvidia-32/.footprint
 f:f43cc1c1ccc7a10bec277f824e7451fe:nvidia-32/.md5sum
@@ -273,3 +273,4 @@ f:c07e3c80de9d895912725a591c87022e:youtube-upload/Pkgfile
 f:f77c6e31f9aed29d93c8fb2ce50f186b:README.md
 f:c542b413a39c093afbd85b833498b29a:wildefyr.git
 f:a6a0b63ecde19fd06a074b53312a79a9:wildefyr.httpup
+f:4bae53b7dea44b6c095d74f73c6161c2:index.html
