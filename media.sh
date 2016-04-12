@@ -40,7 +40,6 @@ generate() {
     sleep 1
 
     html
-
     for dir in */; do
         cd "$dir"
         html
