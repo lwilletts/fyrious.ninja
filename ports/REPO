@@ -8,7 +8,6 @@ d:evtest
 d:fann
 d:farbfeld
 d:ffmpeg
-d:gitio
 d:gpick
 d:htop-vi
 d:ii
@@ -98,9 +97,6 @@ f:b3e606be91c4a302a8e98a9500fd86c7:farbfeld/Pkgfile
 f:cb321e9765e5761c3d5937e4716e1a1e:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:e718913be06f4bc7908d0e9a683168a3:ffmpeg/Pkgfile
-f:ae153695895bb80dacae81f1d795a8ba:gitio/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:gitio/.md5sum
-f:dfc91242343d1bf3dcbf856709d2e1d1:gitio/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:9fb3546e8ef6b0df2bff593048f28ea5:gpick/Pkgfile
