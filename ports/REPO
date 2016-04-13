@@ -8,6 +8,7 @@ d:evtest
 d:fann
 d:farbfeld
 d:ffmpeg
+d:gitio
 d:gpick
 d:htop-vi
 d:ii
@@ -34,6 +35,7 @@ d:openconnect
 d:paper-icon-theme
 d:pip3
 d:pytg
+d:python3
 d:setuptools3
 d:sinit
 d:sox
@@ -64,6 +66,7 @@ d:xero-figlet-fonts
 d:xscreenshot
 d:xxd
 d:youtube-upload
+d:zenity
 f:59b63e5d83d00b52d5694148d7b47389:bdf2psf/.footprint
 f:980a7b399b8ed8207aafc8a02c3f5caf:bdf2psf/.md5sum
 f:de17b15a682897a378377246b8ebc705:bdf2psf/Pkgfile
@@ -97,6 +100,9 @@ f:b3e606be91c4a302a8e98a9500fd86c7:farbfeld/Pkgfile
 f:cb321e9765e5761c3d5937e4716e1a1e:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:e718913be06f4bc7908d0e9a683168a3:ffmpeg/Pkgfile
+f:ae153695895bb80dacae81f1d795a8ba:gitio/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:gitio/.md5sum
+f:dfc91242343d1bf3dcbf856709d2e1d1:gitio/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:9fb3546e8ef6b0df2bff593048f28ea5:gpick/Pkgfile
@@ -148,7 +154,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:4adbb7f135f375ad7932693aa3ce81b4:mpvc/Pkgfile
 f:fe1756a80dd156ca8d0b0b8eeb35a3d6:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
-f:e7f21d61719ec2db3c95e12aa56e9f83:nctelegram/Pkgfile
+f:4e8d9dd600a00bb55b44660aa370a482:nctelegram/Pkgfile
 f:61e941eaf569c1c807d5732ed9a9a1b8:nctelegram/README
 f:64a6eaa20a32e5beca0c85013b5ae102:neomutt/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:neomutt/.md5sum
@@ -186,6 +192,9 @@ f:f058df5f7452f031c4d84b2b2244dd17:pytg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:pytg/.md5sum
 f:0e79d88b8d1aa6d87feb56b05fbb564b:pytg/Pkgfile
 f:e739d740fee29eb5aba5ebe85951bf4a:pytg/README
+f:15af1bf470b1e2920e0652959521d04a:python3/.footprint
+f:9d819839d7f1e49171b51bd281c5841b:python3/.md5sum
+f:7f96c26126f4374ea8cd150c939d6bda:python3/Pkgfile
 f:2be65dcb06d753d13198897df61940de:setuptools3/.footprint
 f:e5fa1323607af4dfbdba95e05925d331:setuptools3/.md5sum
 f:ced2d3d5765f870bf8388be71def738d:setuptools3/Pkgfile
