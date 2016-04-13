@@ -39,7 +39,6 @@ d:setuptools3
 d:sinit
 d:sox
 d:st
-d:steam
 d:sxiv
 d:tcc
 d:teamspeak
@@ -201,11 +200,6 @@ f:8d6aac261895f35a77d613fccf424786:sox/Pkgfile
 f:6db6baa59fa8cfd63f4ebf546a70a167:st/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:st/.md5sum
 f:8c09a24174138acf0c69bcfc9c8e71b3:st/Pkgfile
-f:d41d8cd98f00b204e9800998ecf8427e:steam/.32bit
-f:e39b49b038dc0772173c343b18f31358:steam/.footprint
-f:a3733d1e6dc5a7b38ef318f1273d5fbd:steam/.md5sum
-f:65ffa4a0097391d12eff96ce3734f1d3:steam/Pkgfile
-f:ac0e03d70f1101331598b2b32ed9bac3:steam/alsa_sdl_audiodriver.patch
 f:5fbd9655be340b576237832209d2c731:sxiv/.footprint
 f:b1adbed756ea2829260ee06f22a37cf1:sxiv/.md5sum
 f:82e43ac3c94400f337413ca1d30ab91e:sxiv/Pkgfile
