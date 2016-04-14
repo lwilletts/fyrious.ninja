@@ -8,7 +8,6 @@ d:evtest
 d:fann
 d:farbfeld
 d:ffmpeg
-d:gitio
 d:gpick
 d:htop-vi
 d:ii
@@ -51,7 +50,6 @@ d:txtw
 d:udftools
 d:urwid3
 d:urxvt-perls
-d:vapoursynth
 d:vimpager
 d:vpnc
 d:w3m
@@ -98,9 +96,6 @@ f:54d72e5b563b6fd465b2b99d5a6ac326:farbfeld/Pkgfile
 f:cb321e9765e5761c3d5937e4716e1a1e:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
-f:ae153695895bb80dacae81f1d795a8ba:gitio/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:gitio/.md5sum
-f:bc5927ac1c7a2d326b69f97ffa701691:gitio/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:daaee4b4b266f63c8250c3fb341712fb:gpick/Pkgfile
@@ -150,7 +145,7 @@ f:deeeb2e1ac7ac641a0792e8bdde17c59:mpv/Pkgfile
 f:8189026082fb13ab9b64672fc6fdbe9b:mpvc/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:b34d813505b3b1e448a2320e40634ede:mpvc/Pkgfile
-f:fe1756a80dd156ca8d0b0b8eeb35a3d6:nctelegram/.footprint
+f:0cda8daaaa8227f118382530a270764a:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
 f:783fe9cc7804dbc809c27a40c24850b5:nctelegram/Pkgfile
 f:61e941eaf569c1c807d5732ed9a9a1b8:nctelegram/README
@@ -247,9 +242,6 @@ f:ea15bdc4127a8025c723a6db6ca90fad:urwid3/Pkgfile
 f:4c7887b4b73686312a4b40673bc47ce1:urxvt-perls/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:urxvt-perls/.md5sum
 f:3f13a0526c69c4073066ebcccde69109:urxvt-perls/Pkgfile
-f:d41d8cd98f00b204e9800998ecf8427e:vapoursynth/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:vapoursynth/.md5sum
-f:f01f65fe3ba4b4ee2eab944a1d085404:vapoursynth/Pkgfile
 f:9abb789988ca50a70941cdad15e85ac5:vimpager/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:vimpager/.md5sum
 f:c6bc575aca6d1c71cd791b9f8d79f15e:vimpager/Pkgfile
