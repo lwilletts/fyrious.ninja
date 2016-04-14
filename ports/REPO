@@ -161,9 +161,9 @@ f:f43cc1c1ccc7a10bec277f824e7451fe:nvidia-32/.md5sum
 f:0f7c41a6b05bb0b97d48bfb103967975:nvidia-32/Pkgfile
 f:9bbad24bad493bee358c003be5657a9f:nvidia-32/README
 f:b93581b01ae8cb4e0f45ef4cc8108390:nvidia-32/nvidia-makefile.patch
-f:3d76abe05d377e5f537de8d9a9554c71:nvidia-sdk/.footprint
+f:23ac5654994eefe6a37ef0937e3e3bd1:nvidia-sdk/.footprint
 f:09796c9bb3e7d222c39c8cc3bc1e4537:nvidia-sdk/.md5sum
-f:9a7bd5acf1a0d20f7b146a0bf4597e19:nvidia-sdk/Pkgfile
+f:627d6ef394351707c1929395004ba5d4:nvidia-sdk/Pkgfile
 f:96a1312c4502389990432abdb7a3aa12:nvidia/.footprint
 f:5461fa3f1ac4306a32c06ef454779f5d:nvidia/.md5sum
 f:4511024cc556d0c6e7c467b6789524e2:nvidia/90-nvidia-uvm.rules
