@@ -9,7 +9,6 @@ d:fann
 d:farbfeld
 d:ffmpeg
 d:gpick
-d:htop-vi
 d:ii
 d:ioup
 d:iucode-tool
@@ -99,9 +98,6 @@ f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:daaee4b4b266f63c8250c3fb341712fb:gpick/Pkgfile
-f:21354eee55b1a87feaa01727884149bd:htop-vi/.footprint
-f:4a15c0af6f7da9e0cce3d878cc0ec46b:htop-vi/.md5sum
-f:536c1b024cf53cc4f781073bd6cb7f7a:htop-vi/Pkgfile
 f:ea023c093ee52e9ea4ea47bc9f26c531:ii/.footprint
 f:5cedac19acd739a57d45b2c201498a79:ii/.md5sum
 f:3cb8cbb36815ad121078cb69c6c4f839:ii/Pkgfile
