@@ -17,6 +17,7 @@ d:legionsoverdrive
 d:lel
 d:libcaca
 d:libwm
+d:libxkbcommon
 d:lm-sensors
 d:mosh
 d:mprime
@@ -58,6 +59,7 @@ d:wmutils-opt
 d:wmutils
 d:xautomation
 d:xcape
+d:xdotool
 d:xero-figlet-fonts
 d:xscreenshot
 d:xxd
@@ -123,6 +125,9 @@ f:783a1b36fa442cb4c2c8c81f6dcea938:libcaca/Pkgfile
 f:10971d0da776eeaf7a5591a0e059da41:libwm/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libwm/.md5sum
 f:0d01e1b30b8190c285bbb2b12a29eca2:libwm/Pkgfile
+f:9587ece0230766f0cb931e15612fdffc:libxkbcommon/.footprint
+f:070caf0859ac6ee88b0b3500c405e4da:libxkbcommon/.md5sum
+f:0209f0d6d9679b90e6409d1eb30641cc:libxkbcommon/Pkgfile
 f:10a674c6b3919a03c7244207ecb6b7ca:lm-sensors/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:lm-sensors/.md5sum
 f:30cb8999777cace246103c14f51bf68f:lm-sensors/Pkgfile
@@ -265,6 +270,9 @@ f:8c17add2aa52a15d8397ab1ba2485a03:xautomation/Pkgfile
 f:22ad5899c445538db06a4e3dd1a4304f:xcape/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xcape/.md5sum
 f:1ed23e8e761cf8fe624ec2b083bddd52:xcape/Pkgfile
+f:b560eaaeb7a7d93024e07a51b927fdb8:xdotool/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:xdotool/.md5sum
+f:9dae422a298faab389365502c8fcf92b:xdotool/Pkgfile
 f:9cf18a6ded996ae50078cff88b9a9147:xero-figlet-fonts/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xero-figlet-fonts/.md5sum
 f:be3ad4c0826922289fd25ed99521b00d:xero-figlet-fonts/Pkgfile
