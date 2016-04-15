@@ -57,7 +57,6 @@ d:wendy
 d:winetricks
 d:wmutils-opt
 d:wmutils
-d:xautomation
 d:xcape
 d:xdotool
 d:xero-figlet-fonts
@@ -264,9 +263,6 @@ f:f938b0a2f21b0914ddccdb34c80306fd:wmutils-opt/Pkgfile
 f:d41fea460f60876a5d441c05dd7f4f7f:wmutils/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wmutils/.md5sum
 f:2c4a6883ec3a8b7f7a4c9d3a99436d85:wmutils/Pkgfile
-f:13c4adb6473f445854d0d108aba3b630:xautomation/.footprint
-f:61a99341b6ac0a77036767636e32ba52:xautomation/.md5sum
-f:8c17add2aa52a15d8397ab1ba2485a03:xautomation/Pkgfile
 f:22ad5899c445538db06a4e3dd1a4304f:xcape/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xcape/.md5sum
 f:1ed23e8e761cf8fe624ec2b083bddd52:xcape/Pkgfile
