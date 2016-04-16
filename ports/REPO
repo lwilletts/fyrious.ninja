@@ -25,7 +25,6 @@ d:mps-youtube
 d:mpv
 d:mpvc
 d:nctelegram
-d:nginx
 d:nvidia-32
 d:nvidia-sdk
 d:nvidia
@@ -149,12 +148,6 @@ f:0cda8daaaa8227f118382530a270764a:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
 f:783fe9cc7804dbc809c27a40c24850b5:nctelegram/Pkgfile
 f:61e941eaf569c1c807d5732ed9a9a1b8:nctelegram/README
-f:eb1b1c17dd5f2e183c8c84c3d5232700:nginx/.footprint
-f:cc3c139e4548693503b5651b3afc494e:nginx/.md5sum
-f:a8ff23223eb29945de61e55eba49370d:nginx/Pkgfile
-f:93b358681200fe294581cb559d529aee:nginx/nginx.conf
-f:06712aa2b72397850b0725f2e9d20627:nginx/nginx.rc
-f:b91db8265eed953ae3d0dabe6738dd4c:nginx/pre-install
 f:d41d8cd98f00b204e9800998ecf8427e:nvidia-32/.32bit
 f:2f6a8a3fa2162352e089742854da9d0a:nvidia-32/.footprint
 f:f43cc1c1ccc7a10bec277f824e7451fe:nvidia-32/.md5sum
