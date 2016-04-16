@@ -5,7 +5,6 @@ d:colors
 d:connman-ncurses
 d:connman
 d:evtest
-d:fann
 d:farbfeld
 d:ffmpeg
 d:gpick
@@ -84,11 +83,6 @@ f:cf7f7de390ef1703ce94a156bde9bbfd:connman/rc.connmand
 f:05b10d9dfa4f9bcd97458218bae90dc5:evtest/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:evtest/.md5sum
 f:49138f2ddb681a89f6cda5e650e6111f:evtest/Pkgfile
-f:d41d8cd98f00b204e9800998ecf8427e:fann/.footprint
-f:0cb4e93ed5bbfd0b96ff482b19bc2972:fann/.md5sum
-f:62211dbd022906a00e9c519a53716af8:fann/Added-const.patch
-f:e4ba627d77a5056de7047261826dbdb8:fann/Added-type-conversion-and-const.patch
-f:fab89639bfcdf467c7658ad47107f156:fann/Pkgfile
 f:9b29a13956d838cd8c0d0b559763859a:farbfeld/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:farbfeld/.md5sum
 f:54d72e5b563b6fd465b2b99d5a6ac326:farbfeld/Pkgfile
