@@ -18,5 +18,4 @@ build() {
 		git clone https://github.com/mumble-voip/mumble -b $branch $name
 		cd $name
 	fi
-
 }
