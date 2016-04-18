@@ -1,5 +1,0 @@
-#!/bin/sh
-#
-# run make when merge is successful
-
-make build
