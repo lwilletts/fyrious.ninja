@@ -28,7 +28,6 @@ d:lm-sensors
 d:lua-lpeg
 d:luajit
 d:mosh
-d:mprime
 d:mps-youtube
 d:mpv
 d:mpvc
@@ -166,9 +165,6 @@ f:6e21b9a22365e22891a0c0ecc88a6407:luajit/Pkgfile
 f:0b344dac1070b472428322202525512e:mosh/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mosh/.md5sum
 f:1551be95612f5c55ea60ec1bd249425c:mosh/Pkgfile
-f:c1f5f758e3cc7336f2c83c0499d4fc19:mprime/.footprint
-f:9512b1b4b9841e11ac33a1a398238489:mprime/.md5sum
-f:a4115a7fd82eece0c61272291056eb16:mprime/Pkgfile
 f:2f4888a1be5b7f4b96ade7225e057ce6:mps-youtube/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mps-youtube/.md5sum
 f:54185527fef91635e80a0f33d878098b:mps-youtube/Pkgfile
