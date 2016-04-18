@@ -23,6 +23,7 @@ d:mprime
 d:mps-youtube
 d:mpv
 d:mpvc
+d:mumble
 d:nctelegram
 d:nvidia-32
 d:nvidia-sdk
@@ -138,6 +139,7 @@ f:deeeb2e1ac7ac641a0792e8bdde17c59:mpv/Pkgfile
 f:8189026082fb13ab9b64672fc6fdbe9b:mpvc/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:b34d813505b3b1e448a2320e40634ede:mpvc/Pkgfile
+f:30976d193337e47d7f1efe5f085d3a0d:mumble/Pkgfile
 f:0cda8daaaa8227f118382530a270764a:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
 f:783fe9cc7804dbc809c27a40c24850b5:nctelegram/Pkgfile
@@ -193,7 +195,7 @@ f:e886e625d7efb00653a82e8b57e347db:tcc/.md5sum
 f:35b66fdb347cc96b84852be0ded32d0b:tcc/Pkgfile
 f:3f9741c309f21234bf4d61869034ac6b:teamspeak/.footprint
 f:0ce812956e0bd54cf7d21720ec4943e2:teamspeak/.md5sum
-f:dba32d050f57d4730001963f565fe08f:teamspeak/Pkgfile
+f:e02e0e03f0418fb28303c8ac2283cbfb:teamspeak/Pkgfile
 f:19f103384e4c1a0aafc8fed44de0c87b:teamspeak/icon.xpm
 f:98e987a42511f159fa2228f5e0bffed1:teamspeak/teamspeak3.desktop
 f:170fcbb1b468ce4f3dba7ee3fb2a1c6d:teamspeak/teamspeak3.launcher
