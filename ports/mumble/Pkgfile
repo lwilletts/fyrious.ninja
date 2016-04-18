@@ -1,7 +1,7 @@
-# Description: Mumble VoIP Client/Server. (git checkout)
+# Description: Mumble VoIP Client only. (git checkout)
 # URL:         http://www.mumble.com/
 # Maintainer:  wildefyr, me at wildefyr dot net
-# Depends on:  git boost qt4 speex libsndfile protobuf
+# Depends on:  git boost qt5 speex libsndfile protobuf
 
 name=mumble
 version=git
