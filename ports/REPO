@@ -61,6 +61,7 @@ d:unibilium
 d:urwid3
 d:urxvt-perls
 d:vimpager
+d:vitetris
 d:vpnc
 d:w3m
 d:wendy
@@ -280,12 +281,15 @@ f:3f13a0526c69c4073066ebcccde69109:urxvt-perls/Pkgfile
 f:9abb789988ca50a70941cdad15e85ac5:vimpager/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:vimpager/.md5sum
 f:c6bc575aca6d1c71cd791b9f8d79f15e:vimpager/Pkgfile
+f:8ba6bd0a5769a45a2f54e654d74b4de2:vitetris/.footprint
+f:e613baab801006fbf9d96a1e2714e063:vitetris/.md5sum
+f:de0345328cd0264b5e81df80870d942d:vitetris/Pkgfile
 f:032cb812e7079c98b4834131de0807d0:vpnc/.footprint
 f:ae828be58f16f4e26b8a2c3f239b4e0a:vpnc/.md5sum
 f:9cc1eb56be2ea6c20c6b0f82d3d62eaa:vpnc/Pkgfile
 f:53feb3b9fe9d2dd15079289dfca7536b:w3m/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:w3m/.md5sum
-f:02c727367f25c93f49f6d18534169feb:w3m/Pkgfile
+f:9c244c38a892f975f6104e6c95e3ba51:w3m/Pkgfile
 f:6c6d750fa9deee40e40854162133e888:wendy/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wendy/.md5sum
 f:96b88616dce7d6656dce9368cd4a0a8e:wendy/Pkgfile
@@ -316,6 +320,6 @@ f:61b3d7a74af5c2e828f7e8daadd9c4c1:xxd/Pkgfile
 f:a6bfecf117c4c6f80ebf22dc04ad94d2:youtube-upload/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:youtube-upload/.md5sum
 f:4d507d1c318dfa7d0b2508ab8f3d9d1b:youtube-upload/Pkgfile
-f:f77c6e31f9aed29d93c8fb2ce50f186b:README.md
+f:e279d41265b39bdc9ca188f7ca4f3571:README.md
 f:c542b413a39c093afbd85b833498b29a:wildefyr.git
 f:a6a0b63ecde19fd06a074b53312a79a9:wildefyr.httpup
