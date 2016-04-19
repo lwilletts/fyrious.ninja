@@ -148,7 +148,7 @@ f:29e1af066e9c4083d64f866436bed0c8:libuv/.md5sum
 f:b4ddf18c673271df56b9ed779b5d2804:libuv/Pkgfile
 f:15c1e599c2eac2105278219aad174086:libvterm/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libvterm/.md5sum
-f:99b41fa6e334540a7f30f78fc14796f0:libvterm/Pkgfile
+f:e265f4e9186dfff2bee353d50980e143:libvterm/Pkgfile
 f:10971d0da776eeaf7a5591a0e059da41:libwm/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libwm/.md5sum
 f:0d01e1b30b8190c285bbb2b12a29eca2:libwm/Pkgfile
@@ -305,7 +305,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:wmutils/.md5sum
 f:2c4a6883ec3a8b7f7a4c9d3a99436d85:wmutils/Pkgfile
 f:22ad5899c445538db06a4e3dd1a4304f:xcape/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xcape/.md5sum
-f:1ed23e8e761cf8fe624ec2b083bddd52:xcape/Pkgfile
+f:13307726b0f2c4989e7bb19eeb3f31c3:xcape/Pkgfile
 f:b560eaaeb7a7d93024e07a51b927fdb8:xdotool/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xdotool/.md5sum
 f:9dae422a298faab389365502c8fcf92b:xdotool/Pkgfile
