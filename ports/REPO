@@ -40,6 +40,8 @@ d:openconnect
 d:opus-tools
 d:paper-icon-theme
 d:pip3
+d:psutil
+d:psutils
 d:pytg
 d:python3
 d:setuptools3
@@ -176,7 +178,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:b34d813505b3b1e448a2320e40634ede:mpvc/Pkgfile
 f:0cda8daaaa8227f118382530a270764a:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
-f:783fe9cc7804dbc809c27a40c24850b5:nctelegram/Pkgfile
+f:9f8192a18d3d3883ad651c9aef0c6bf9:nctelegram/Pkgfile
 f:61e941eaf569c1c807d5732ed9a9a1b8:nctelegram/README
 f:2b99c026d69726afcb16b871b5fbc745:neovim/.footprint
 f:6ee87092e3f761ddbeed93004e38016a:neovim/.md5sum
@@ -207,6 +209,9 @@ f:c2482258cabf21525af9f538ef641110:paper-icon-theme/Pkgfile
 f:bf1d592fb8cfb5a0107c3006692c8645:pip3/.footprint
 f:ac10150d98862bf95612efb30617bb1f:pip3/.md5sum
 f:ccf3aa6488491877f1e29c811a3078a7:pip3/Pkgfile
+f:4dcd0b1d1a0f856143b4e411c5e30728:psutil/.footprint
+f:4448290b733557278d7ed9af46b39132:psutil/.md5sum
+f:9ddc70d7f3e8dc0ad51e441bb6a975c3:psutil/Pkgfile
 f:f058df5f7452f031c4d84b2b2244dd17:pytg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:pytg/.md5sum
 f:7b47a95e6a44708de0c72a5c829a025c:pytg/Pkgfile
