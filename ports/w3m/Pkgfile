@@ -25,43 +25,37 @@ build() {
 	sed -i 's/file_handle/file_foo/' istream.{c,h}
 
 	./configure --prefix=/usr \
-				--bindir=/usr/bin \
 				--mandir=/usr/share/man \
 				--libexecdir=/usr/lib \
+				--enable-image \
 				--with-gc \
 				--enable-dict \
+				--enable-menu \
 				--enable-mouse \
-				--enable-image \
 				--enable-color \
 				--enable-cookie \
+				--enable-gopher \
 				--enable-bgcolor \
+				--enable-history \
+				--enable-help-cgi \
+				--enable-sslverify \
 				--enable-ansi-color \
+				--enable-digest-auth \
 				--enable-keymap=lynx \
-				--disable-alarm \
+				--enable-external-uri-loader \
+				--disable-nls \
+				--disable-ipv6 \
+				--disable-nntp \
+				--disable-xface \
 				--disable-japanese \
-				# --disable-gopher \
-				# --disable-m17n \
-				# --disable-messagel10n \
-				# --disable-nls \
-				# --disable-nntp \
-				# --disable-unicode \
-				# --disable-xface \
-				# --enable-dict \
-				# --enable-digest-auth \
-				# --enable-external-uri-loader \
-				# --enable-help-cgi \
-				# --enable-history \
-				# --enable-ipv6 \
-				# --enable-keymap=w3m \
-				# --enable-menu \
-				# --enable-mouse \
-				# --enable-sslverify \
-				# --enable-w3mmailer \
+				--disable-w3mmailer \
+				--disable-messagel10n \
 
 	make
 	make DESTDIR=$PKG install
 
-	cp $PKG/lib/w3m/w3mimgdisplay $PKG/usr/bin/w3mingdisplay
+	ln -s /usr/lib/w3m/w3mimgdisplay $PKG/usr/bin/w3mingdisplay
+
 	rm -rf $PKG/usr/man/ja*
 	rm -rf $PKG/usr/share/locale/
 }
