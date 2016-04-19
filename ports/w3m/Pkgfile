@@ -28,22 +28,24 @@ build() {
 				--bindir=/usr/bin \
 				--mandir=/usr/share/man \
 				--libexecdir=/usr/lib \
+				--with-gc \
+				--enable-dict \
+				--enable-mouse \
 				--enable-image \
+				--enable-color \
+				--enable-cookie \
+				--enable-bgcolor \
 				--enable-ansi-color \
 				--enable-keymap=lynx \
-				--with-gc \
+				--disable-alarm \
+				--disable-japanese \
 				# --disable-gopher \
-				# --disable-japanese \
 				# --disable-m17n \
 				# --disable-messagel10n \
 				# --disable-nls \
 				# --disable-nntp \
 				# --disable-unicode \
 				# --disable-xface \
-				# --enable-alarm \
-				# --enable-bgcolor \
-				# --enable-color \
-				# --enable-cookie \
 				# --enable-dict \
 				# --enable-digest-auth \
 				# --enable-external-uri-loader \
