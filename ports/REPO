@@ -109,9 +109,9 @@ f:54d72e5b563b6fd465b2b99d5a6ac326:farbfeld/Pkgfile
 f:45d1533023191f8195f83e6fb23fe764:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
-f:33c0fac0d6a4c91c590348b86920dab4:google-chrome/.footprint
-f:3de97c7b49ee239a1556a6e212005c8a:google-chrome/.md5sum
-f:7619121eb1852fa6367f9747ac2bb9e3:google-chrome/Pkgfile
+f:ea49a2fb723c75cedc8f7c085e783ce0:google-chrome/.footprint
+f:642ae363a1e07d147bb1c013fdfaeff4:google-chrome/.md5sum
+f:0ed5132e4df07da57a9ef98b361ed57c:google-chrome/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:daaee4b4b266f63c8250c3fb341712fb:gpick/Pkgfile
@@ -252,7 +252,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.md5sum
 f:3267849d6963d4c3e43d97f9e6996dcd:terminibbles/Pkgfile
 f:6a8f79ed5feaacfdb8522e6041130564:transmission-remote-cli/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:transmission-remote-cli/.md5sum
-f:47219792f6533678da93ec0cb7b455de:transmission-remote-cli/Pkgfile
+f:ff51ff19f5b78ef61680cc5153b129cb:transmission-remote-cli/Pkgfile
 f:338de7dd9e860ab12ba3c528ba77cc79:transset-df/.footprint
 f:892dd2de12bb1ca95d27258e2ddb0565:transset-df/.md5sum
 f:712a4fc3bfdf44352b981288d6850cd7:transset-df/Pkgfile
