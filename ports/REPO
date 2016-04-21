@@ -6,12 +6,14 @@ d:connman-ncurses
 d:connman
 d:dmenu-ee
 d:dtach
+d:dvtm
 d:evtest
 d:farbfeld
 d:ffmpeg
 d:google-chrome
 d:gpick
 d:hsetroot
+d:intellij-idea
 d:ioup
 d:iucode-tool
 d:killwa
@@ -52,6 +54,7 @@ d:tcc
 d:teamspeak
 d:telegram-cli
 d:terminibbles
+d:test
 d:transmission-remote-cli
 d:transset-df
 d:ttyload
@@ -99,6 +102,7 @@ f:55b923abcc8217c07becf2c3672e512d:dmenu-ee/Pkgfile
 f:5427a97b6b9c1f358298e2d204d9a4dc:dtach/.footprint
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
 f:a186fcf140e8857455739e5e4024a2f8:dtach/Pkgfile
+f:a4f21fe285b071a60b0ad8fa2e1a197c:dvtm/Pkgfile
 f:05b10d9dfa4f9bcd97458218bae90dc5:evtest/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:evtest/.md5sum
 f:49138f2ddb681a89f6cda5e650e6111f:evtest/Pkgfile
@@ -111,13 +115,15 @@ f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
 f:e68312f137a71a3de5774d7dbdcf420b:google-chrome/.footprint
 f:2c3baa29804b1c09225aacd8af118f42:google-chrome/.md5sum
 f:c4cea9d68db92b269f9748870f8aae04:google-chrome/Pkgfile
-f:0ba4253b710a4b23bb45c0460197a04a:google-chrome/post-install
+f:e65a5d2b7acc177772b1da1158fe76d3:google-chrome/post-install
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:daaee4b4b266f63c8250c3fb341712fb:gpick/Pkgfile
 f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
 f:9fc4bc6578a0cd759d7235483b9714fb:hsetroot/.md5sum
 f:cef18c12c4fcf19de4d62962b624ae06:hsetroot/Pkgfile
+f:be69166bf76be2eb79d4fbff027df9ae:intellij-idea/.md5sum
+f:682b59807c10861862344afba7ca8ad9:intellij-idea/Pkgfile
 f:bd9e116622f68d40804244f713139897:ioup/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ioup/.md5sum
 f:8c9809977f5cc7d57f50f42e2fdc1385:ioup/Pkgfile

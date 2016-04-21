@@ -1,0 +1,14 @@
+# Description: The most 'intelligent' Java IDE.
+# URL:         https://www.jetbrains.com/idea/
+# Maintainer:  wildefyr, me at wildefyr dot net
+# Depends on:
+
+name=intellij-idea
+version=145.597
+release=3
+source=(https://download.jetbrains.com/idea/ideaIC-2016.1.1.tar.gz)
+
+build() {
+	cp idea-IC-${version}.${release} /opt/intellij-idea
+	ln -sf /opt/intellij-idea/bin/idea.sh /usr/bin/intellij-idea
+}
