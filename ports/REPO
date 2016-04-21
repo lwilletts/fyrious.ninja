@@ -102,7 +102,9 @@ f:55b923abcc8217c07becf2c3672e512d:dmenu-ee/Pkgfile
 f:5427a97b6b9c1f358298e2d204d9a4dc:dtach/.footprint
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
 f:a186fcf140e8857455739e5e4024a2f8:dtach/Pkgfile
-f:a4f21fe285b071a60b0ad8fa2e1a197c:dvtm/Pkgfile
+f:65ecfcf8c7d138515435e8a3890fd52f:dvtm/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:dvtm/.md5sum
+f:5c06e0d58e18d453823a23fe0a1dbff2:dvtm/Pkgfile
 f:05b10d9dfa4f9bcd97458218bae90dc5:evtest/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:evtest/.md5sum
 f:49138f2ddb681a89f6cda5e650e6111f:evtest/Pkgfile
@@ -122,8 +124,10 @@ f:daaee4b4b266f63c8250c3fb341712fb:gpick/Pkgfile
 f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
 f:9fc4bc6578a0cd759d7235483b9714fb:hsetroot/.md5sum
 f:cef18c12c4fcf19de4d62962b624ae06:hsetroot/Pkgfile
+f:776b39f55c536f1829a19ce6dc6c264f:intellij-idea/.footprint
 f:be69166bf76be2eb79d4fbff027df9ae:intellij-idea/.md5sum
-f:682b59807c10861862344afba7ca8ad9:intellij-idea/Pkgfile
+f:b2f23886b1309e51b25c73f8b976c3da:intellij-idea/Pkgfile
+f:5d122bb7426f2c02356b094cdac732d3:intellij-idea/post-install
 f:bd9e116622f68d40804244f713139897:ioup/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ioup/.md5sum
 f:8c9809977f5cc7d57f50f42e2fdc1385:ioup/Pkgfile
@@ -181,7 +185,7 @@ f:deeeb2e1ac7ac641a0792e8bdde17c59:mpv/Pkgfile
 f:8189026082fb13ab9b64672fc6fdbe9b:mpvc/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:b34d813505b3b1e448a2320e40634ede:mpvc/Pkgfile
-f:0cda8daaaa8227f118382530a270764a:nctelegram/.footprint
+f:0fe1e79db396c14724030bc195a51fb5:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
 f:9f8192a18d3d3883ad651c9aef0c6bf9:nctelegram/Pkgfile
 f:61e941eaf569c1c807d5732ed9a9a1b8:nctelegram/README

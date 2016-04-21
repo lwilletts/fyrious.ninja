@@ -9,6 +9,6 @@ release=3
 source=(https://download.jetbrains.com/idea/ideaIC-2016.1.1.tar.gz)
 
 build() {
-	cp idea-IC-${version}.${release} /opt/intellij-idea
-	ln -sf /opt/intellij-idea/bin/idea.sh /usr/bin/intellij-idea
+	mkdir -p $PKG/opt
+	cp -rf idea-IC-${version}.${release} $PKG/opt/intellij-idea
 }
