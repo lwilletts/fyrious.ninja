@@ -26,6 +26,7 @@ d:libxkbcommon
 d:lm-sensors
 d:lua-lpeg
 d:luajit
+d:mdp
 d:mosh
 d:mps-youtube
 d:mpv
@@ -107,9 +108,10 @@ f:54d72e5b563b6fd465b2b99d5a6ac326:farbfeld/Pkgfile
 f:45d1533023191f8195f83e6fb23fe764:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
-f:ea49a2fb723c75cedc8f7c085e783ce0:google-chrome/.footprint
-f:642ae363a1e07d147bb1c013fdfaeff4:google-chrome/.md5sum
-f:cd039ba61e26b635ba4d8ae177cd1c4d:google-chrome/Pkgfile
+f:e68312f137a71a3de5774d7dbdcf420b:google-chrome/.footprint
+f:2c3baa29804b1c09225aacd8af118f42:google-chrome/.md5sum
+f:c4cea9d68db92b269f9748870f8aae04:google-chrome/Pkgfile
+f:0ba4253b710a4b23bb45c0460197a04a:google-chrome/post-install
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
 f:daaee4b4b266f63c8250c3fb341712fb:gpick/Pkgfile
@@ -158,6 +160,9 @@ f:f7dec1cb7386176844c8f1491b544f1b:lua-lpeg/Pkgfile
 f:359f0d1f39ead0f935d861f170ad2445:luajit/.footprint
 f:bea6ef59da1245af018a05c5843e480a:luajit/.md5sum
 f:6e21b9a22365e22891a0c0ecc88a6407:luajit/Pkgfile
+f:d3359f4c016bd51f31702375fb21138b:mdp/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:mdp/.md5sum
+f:c20a0b31d12dd7ae4194c2cd75df6135:mdp/Pkgfile
 f:0b344dac1070b472428322202525512e:mosh/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mosh/.md5sum
 f:1551be95612f5c55ea60ec1bd249425c:mosh/Pkgfile
