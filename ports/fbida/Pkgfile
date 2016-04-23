@@ -1,0 +1,14 @@
+# Description: PDF and image viewer programs for the Linux framebuffer.
+# URL:         https://www.kraxel.org/blog/linux/fbida/
+# Maintainer:  wildefyr, me at wildefyr dot net
+# Depends on:
+
+name=fbida
+version=2.12
+release=1
+source=(https://www.kraxel.org/cgit/fbida/snapshot/fbida-2.12.tar.gz)
+
+build() {
+	cd $name-$version
+
+}

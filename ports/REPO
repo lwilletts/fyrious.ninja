@@ -9,6 +9,7 @@ d:dtach
 d:dvtm
 d:evtest
 d:farbfeld
+d:fbida
 d:ffmpeg
 d:google-chrome
 d:gpick
@@ -30,11 +31,14 @@ d:lm-sensors
 d:lua-lpeg
 d:luajit
 d:mdp
+d:mkb
 d:mosh
 d:mps-youtube
 d:mpv
 d:mpvc
+d:n30f
 d:nctelegram
+d:neofetch
 d:neovim
 d:nvidia-32
 d:nvidia-sdk
@@ -55,7 +59,6 @@ d:tcc
 d:teamspeak
 d:telegram-cli
 d:terminibbles
-d:test
 d:transmission-remote-cli
 d:transset-df
 d:ttyload
@@ -112,6 +115,7 @@ f:49138f2ddb681a89f6cda5e650e6111f:evtest/Pkgfile
 f:9b29a13956d838cd8c0d0b559763859a:farbfeld/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:farbfeld/.md5sum
 f:54d72e5b563b6fd465b2b99d5a6ac326:farbfeld/Pkgfile
+f:e94772d72ab166e45757548c358a377d:fbida/Pkgfile
 f:45d1533023191f8195f83e6fb23fe764:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
@@ -136,7 +140,7 @@ f:8dfde73242d79c5cb9d2da4524fb042b:iucode-tool/.footprint
 f:834371118090f74162c809bff893cc12:iucode-tool/.md5sum
 f:d3300e6f6d7adba9240d8512b70b89f9:iucode-tool/Pkgfile
 f:c93d6d20bff20bf7cbdb11982b4f5d89:jfbview/.md5sum
-f:b0371bceef935a83ce08a13aca299c20:jfbview/Pkgfile
+f:cd44370f73f5091abb13054b4aca0212:jfbview/Pkgfile
 f:36bc5108b12c12e7faddd9f5fa563315:killwa/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:killwa/.md5sum
 f:d65c256bdc6971c53256c0f5d663a520:killwa/Pkgfile
@@ -176,6 +180,9 @@ f:6e21b9a22365e22891a0c0ecc88a6407:luajit/Pkgfile
 f:d3359f4c016bd51f31702375fb21138b:mdp/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mdp/.md5sum
 f:c20a0b31d12dd7ae4194c2cd75df6135:mdp/Pkgfile
+f:d001f77d7cac07e95454bf3beb98e6dc:mkb/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:mkb/.md5sum
+f:00af0e51b64a5350a7bed1f9e3233b3b:mkb/Pkgfile
 f:0b344dac1070b472428322202525512e:mosh/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mosh/.md5sum
 f:1551be95612f5c55ea60ec1bd249425c:mosh/Pkgfile
@@ -188,10 +195,17 @@ f:deeeb2e1ac7ac641a0792e8bdde17c59:mpv/Pkgfile
 f:8189026082fb13ab9b64672fc6fdbe9b:mpvc/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:b34d813505b3b1e448a2320e40634ede:mpvc/Pkgfile
+f:f09b9b139c9f990009ce00f27f203ed7:n30f/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:n30f/.md5sum
+f:f9d30d035fd99f3cf5ee49c74e56a405:n30f/Pkgfile
 f:0fe1e79db396c14724030bc195a51fb5:nctelegram/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nctelegram/.md5sum
 f:9f8192a18d3d3883ad651c9aef0c6bf9:nctelegram/Pkgfile
 f:61e941eaf569c1c807d5732ed9a9a1b8:nctelegram/README
+f:a230e7c80748c1bb9cb3b8630a78d61a:neofetch/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:neofetch/.md5sum
+f:d13fe91c2d60df688b5a89476b3d3b9f:neofetch/Pkgfile
+f:9d9c8617bd646b4f280a845686e4c4e4:neofetch/README
 f:2b99c026d69726afcb16b871b5fbc745:neovim/.footprint
 f:6ee87092e3f761ddbeed93004e38016a:neovim/.md5sum
 f:61570b39d04b1edba5a85a5da61bdd0f:neovim/Pkgfile
