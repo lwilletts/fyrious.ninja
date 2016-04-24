@@ -1,14 +1,16 @@
 # Description: PDF and image viewer programs for the Linux framebuffer.
 # URL:         https://www.kraxel.org/blog/linux/fbida/
 # Maintainer:  wildefyr, me at wildefyr dot net
-# Depends on:
+# Depends on:  freetype fontconfig giflib ghostscript libdrm libepoxy libexif libpng libtiff poppler-glib
 
 name=fbida
 version=2.12
 release=1
-source=(https://www.kraxel.org/cgit/fbida/snapshot/fbida-2.12.tar.gz)
+source=(https://www.kraxel.org/cgit/${name}/snapshot/${name}-${version}.tar.gz)
 
 build() {
 	cd $name-$version
+
+	sed -i 's/ungif/gif/; 20,35d' GNUmakefile
 
 }

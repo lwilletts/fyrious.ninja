@@ -1,7 +1,7 @@
 # Description: Google chrome unstable binary.
 # URL:         http://chrome.google.com
 # Maintainer:  wildefyr, me at wildefyr dot net
-# Depends on:  gtk gconf nss cups libexif
+# Depends on:  gtk gtk-engine-murrine gconf nss cups libexif
 
 name=google-chrome
 version=unstable
@@ -15,7 +15,8 @@ build() {
 	gzip $PKG/usr/share/man/man1/google-chrome-${version}.1
 
 	rm -r $PKG/usr/share/doc \
+		  $PKG/etc/cron.daily \
 		  $PKG/usr/share/applications \
-		  $PKG/usr/share/gnome-control-center \
-		  $PKG/etc/cron.daily
+		  $PKG/usr/bin/${name}-${version} \
+		  $PKG/usr/share/gnome-control-center
 }

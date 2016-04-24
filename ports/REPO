@@ -22,6 +22,7 @@ d:killwa
 d:legionsoverdrive
 d:lel
 d:libcaca
+d:libmtp
 d:libtermkey
 d:libuv
 d:libvterm
@@ -36,6 +37,7 @@ d:mosh
 d:mps-youtube
 d:mpv
 d:mpvc
+d:mumble-client
 d:n30f
 d:nctelegram
 d:neofetch
@@ -115,13 +117,13 @@ f:49138f2ddb681a89f6cda5e650e6111f:evtest/Pkgfile
 f:9b29a13956d838cd8c0d0b559763859a:farbfeld/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:farbfeld/.md5sum
 f:54d72e5b563b6fd465b2b99d5a6ac326:farbfeld/Pkgfile
-f:e94772d72ab166e45757548c358a377d:fbida/Pkgfile
+f:d9f16252a240e751c70d11c0841921f5:fbida/Pkgfile
 f:45d1533023191f8195f83e6fb23fe764:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:ad2866a175d7178485c29314ce4b865c:ffmpeg/Pkgfile
-f:e68312f137a71a3de5774d7dbdcf420b:google-chrome/.footprint
+f:dea52852103c08264a3a995dcef32f23:google-chrome/.footprint
 f:2c3baa29804b1c09225aacd8af118f42:google-chrome/.md5sum
-f:c4cea9d68db92b269f9748870f8aae04:google-chrome/Pkgfile
+f:168d7c25c63660b32b8f60d96e113e4c:google-chrome/Pkgfile
 f:e65a5d2b7acc177772b1da1158fe76d3:google-chrome/post-install
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:gpick/.md5sum
@@ -153,6 +155,9 @@ f:494168ef39cec80b4ecce00cbbea4ac9:lel/Pkgfile
 f:b3773182b3b958cf42c1d329bf5c063f:libcaca/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libcaca/.md5sum
 f:783a1b36fa442cb4c2c8c81f6dcea938:libcaca/Pkgfile
+f:109552c6bb9eea2a4b5ecbc14f3fbda4:libmtp/.footprint
+f:cf656d0bcd0f0054f9af34bca4185892:libmtp/.md5sum
+f:e72e7760993c6271f1d155f2b4fc8182:libmtp/Pkgfile
 f:44ba3347bd72d62bff3bb487acd5f9da:libtermkey/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libtermkey/.md5sum
 f:60e8d9d049e796ba0df930a21e9623d1:libtermkey/Pkgfile
@@ -195,6 +200,9 @@ f:deeeb2e1ac7ac641a0792e8bdde17c59:mpv/Pkgfile
 f:8189026082fb13ab9b64672fc6fdbe9b:mpvc/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mpvc/.md5sum
 f:b34d813505b3b1e448a2320e40634ede:mpvc/Pkgfile
+f:1c278a07ec82513eb2e200a388b80ff5:mumble-client/.footprint
+f:37344c23f09a811a0e4c0d0528aa7068:mumble-client/.md5sum
+f:804449724e030ec4cbb524364451246d:mumble-client/Pkgfile
 f:f09b9b139c9f990009ce00f27f203ed7:n30f/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:n30f/.md5sum
 f:f9d30d035fd99f3cf5ee49c74e56a405:n30f/Pkgfile
