@@ -68,7 +68,6 @@ d:udftools
 d:unibilium
 d:urwid3
 d:urxvt-perls
-d:vimpager
 d:vitetris
 d:vpnc
 d:w3m
@@ -310,9 +309,6 @@ f:ea15bdc4127a8025c723a6db6ca90fad:urwid3/Pkgfile
 f:4c7887b4b73686312a4b40673bc47ce1:urxvt-perls/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:urxvt-perls/.md5sum
 f:3f13a0526c69c4073066ebcccde69109:urxvt-perls/Pkgfile
-f:9abb789988ca50a70941cdad15e85ac5:vimpager/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:vimpager/.md5sum
-f:c6bc575aca6d1c71cd791b9f8d79f15e:vimpager/Pkgfile
 f:8ba6bd0a5769a45a2f54e654d74b4de2:vitetris/.footprint
 f:e613baab801006fbf9d96a1e2714e063:vitetris/.md5sum
 f:cc6c993489c91a9c871dea1e865e04c2:vitetris/Pkgfile
