@@ -12,5 +12,4 @@ build() {
 	cd $name-$version
 
 	sed -i 's/ungif/gif/; 20,35d' GNUmakefile
-
 }
