@@ -1,6 +1,7 @@
 d:bdf2psf
 d:cava
 d:cdrtools
+d:cmark
 d:colors
 d:connman-ncurses
 d:connman
@@ -91,6 +92,9 @@ f:bc7b5386b291f714bcc96151d05e14b5:cava/Pkgfile
 f:8b956805d36e914ba2f02a34a4c18095:cdrtools/.footprint
 f:9de1ab16353932e958bcb382ed5f28fa:cdrtools/.md5sum
 f:c3991be5bf2e6a4730424dcac3a4404e:cdrtools/Pkgfile
+f:8a14438bbeeb9f72776f8dca7675a49e:cmark/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:cmark/.md5sum
+f:957681ef2d21bcebbf4cf9d3b8b729a0:cmark/Pkgfile
 f:7c5b71c246da7b2491acbf52953b7c94:colors/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:colors/.md5sum
 f:df776dc7597c8ffa55cffed89cba2a81:colors/Pkgfile
