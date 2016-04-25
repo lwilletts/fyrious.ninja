@@ -55,7 +55,6 @@ d:python3
 d:setuptools3
 d:sinit
 d:sox
-d:st
 d:sxiv
 d:tcc
 d:teamspeak
@@ -81,6 +80,7 @@ d:xcape
 d:xdotool
 d:xero-figlet-fonts
 d:xscreenshot
+d:xst
 d:xxd
 d:youtube-upload
 f:59b63e5d83d00b52d5694148d7b47389:bdf2psf/.footprint
@@ -262,9 +262,6 @@ f:085423665c52b12e6d08fb957e5216ec:sinit/Pkgfile
 f:f3f7715eaccfe190b491627ae5824881:sox/.footprint
 f:3a98f97e7fead0455a812209895cc39f:sox/.md5sum
 f:2c5e96a83a3c720b63db80ad7059de2c:sox/Pkgfile
-f:6db6baa59fa8cfd63f4ebf546a70a167:st/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:st/.md5sum
-f:8c09a24174138acf0c69bcfc9c8e71b3:st/Pkgfile
 f:5fbd9655be340b576237832209d2c731:sxiv/.footprint
 f:b1adbed756ea2829260ee06f22a37cf1:sxiv/.md5sum
 f:962c958ad48efa0aa43808e34fbbef2f:sxiv/Pkgfile
@@ -349,6 +346,9 @@ f:be3ad4c0826922289fd25ed99521b00d:xero-figlet-fonts/Pkgfile
 f:9ef6ebcd5ff0f154b2d690c57d96298c:xscreenshot/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xscreenshot/.md5sum
 f:30ef621d6d990e34b0d9406c62c4ddd5:xscreenshot/Pkgfile
+f:6b0d6180cf988e7ee7779c0dce6ded3b:xst/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:xst/.md5sum
+f:5639327198b438b4d7e1ac3d2989a786:xst/Pkgfile
 f:e81fc8035e9e6515c71ce435a4a1d9e1:xxd/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xxd/.md5sum
 f:61b3d7a74af5c2e828f7e8daadd9c4c1:xxd/Pkgfile
