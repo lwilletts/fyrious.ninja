@@ -1,0 +1,2 @@
+#define FOREGROUND_COLOR 0xD7D7D7
+#define BORDER 1

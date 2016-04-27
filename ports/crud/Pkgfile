@@ -1,0 +1,27 @@
+# Description: Prints the geometry of a selected region in X11. (git checkout)
+# URL:         https://github.com/rxse/crud
+# Maintainer:  wildefyr, me at wildefyr dot net
+# Depends on:
+
+name=crud
+version=git
+release=1
+source=(config.h)
+branch=master
+
+build() {
+	cd $PKGMK_SOURCE_DIR
+
+	if cd $name; then
+		git fetch -q && git reset --hard origin/$branch
+		git clean -q -d -f
+	else
+		git clone https://github.com/rxse/crud -b $branch $name
+		cd $name
+	fi
+
+	cp $SRC/config.h .
+
+	make
+	make DESTDIR=$PKG PREFIX=/usr install
+}

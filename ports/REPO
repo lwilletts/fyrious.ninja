@@ -5,6 +5,7 @@ d:cmark
 d:colors
 d:connman-ncurses
 d:connman
+d:crud
 d:dmenu-ee
 d:dtach
 d:dvtm
@@ -95,6 +96,7 @@ f:c3991be5bf2e6a4730424dcac3a4404e:cdrtools/Pkgfile
 f:8a14438bbeeb9f72776f8dca7675a49e:cmark/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:cmark/.md5sum
 f:d349b281eec02418087cf9a5cbcb9035:cmark/Pkgfile
+f:6df1ef41349ac3751fd24d0f949884dc:cmark/post-install
 f:7c5b71c246da7b2491acbf52953b7c94:colors/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:colors/.md5sum
 f:4bba27e8c8caf14a1f47b81ff1926e1e:colors/Pkgfile
@@ -105,6 +107,9 @@ f:c9eb4fd0beb8d3df9f25b57152752c4c:connman/.footprint
 f:02efc36d9bdead6124a71dc542d5ed28:connman/.md5sum
 f:df59dc34c0dcc063d7cc6b0e7546b4d9:connman/Pkgfile
 f:cf7f7de390ef1703ce94a156bde9bbfd:connman/rc.connmand
+f:50449db6752d91fc059a278911d36957:crud/.md5sum
+f:15eaa1ddf3dbe745557c60bfd84c73cc:crud/Pkgfile
+f:1ebba3a8abf6537126b3aca79b473b75:crud/config.h
 f:e49be317e79f612d421b9b3e23ded4e8:dmenu-ee/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:dmenu-ee/.md5sum
 f:dbc2e0564b96f323ce0f2604924fec5d:dmenu-ee/Pkgfile
@@ -243,9 +248,9 @@ f:fe02e3de11f41561d4d95a96b99cbdc4:opus-tools/Pkgfile
 f:cd0f23503f7d7de778fc2eda6174e91d:paper-icon-theme/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:paper-icon-theme/.md5sum
 f:ed67c550262f29cd027207d47fd8d6f7:paper-icon-theme/Pkgfile
-f:bf1d592fb8cfb5a0107c3006692c8645:pip3/.footprint
+f:59b49a45fc4c1646da387cfec09fa624:pip3/.footprint
 f:ac10150d98862bf95612efb30617bb1f:pip3/.md5sum
-f:ccf3aa6488491877f1e29c811a3078a7:pip3/Pkgfile
+f:008b50ac27806df86831f16ae76507a1:pip3/Pkgfile
 f:4dcd0b1d1a0f856143b4e411c5e30728:psutil/.footprint
 f:4448290b733557278d7ed9af46b39132:psutil/.md5sum
 f:9ddc70d7f3e8dc0ad51e441bb6a975c3:psutil/Pkgfile
