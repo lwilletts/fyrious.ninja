@@ -126,7 +126,7 @@ f:9b29a13956d838cd8c0d0b559763859a:farbfeld/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:farbfeld/.md5sum
 f:26ae152acdf74909341eafe75eea9730:farbfeld/Pkgfile
 f:78d59cd00c0fc135a6a0865e400e656c:fbida/Pkgfile
-f:45d1533023191f8195f83e6fb23fe764:ffmpeg/.footprint
+f:23ee3a5817963a0b1614cb3b14c0fe06:ffmpeg/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:ffmpeg/.md5sum
 f:e9728d8810ecec50eadf20e488c28912:ffmpeg/Pkgfile
 f:dea52852103c08264a3a995dcef32f23:google-chrome/.footprint
@@ -185,8 +185,8 @@ f:10a674c6b3919a03c7244207ecb6b7ca:lm-sensors/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:lm-sensors/.md5sum
 f:e9052e89bc1ca98da8c2e26f8774301f:lm-sensors/Pkgfile
 f:b3f816fcda83c961f95e0e905804ad58:lua-lpeg/.footprint
-f:c22600a725ea74cdd85db5aaee68112d:lua-lpeg/.md5sum
-f:f7dec1cb7386176844c8f1491b544f1b:lua-lpeg/Pkgfile
+f:a965b3887b29e563c2f0d500eaae1d15:lua-lpeg/.md5sum
+f:1912265d700eaebc74ce742b832e7676:lua-lpeg/Pkgfile
 f:359f0d1f39ead0f935d861f170ad2445:luajit/.footprint
 f:bea6ef59da1245af018a05c5843e480a:luajit/.md5sum
 f:6e21b9a22365e22891a0c0ecc88a6407:luajit/Pkgfile
@@ -223,8 +223,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:neofetch/.md5sum
 f:b5f7f98160f0afd76838e0c7b1c2c41c:neofetch/Pkgfile
 f:9d9c8617bd646b4f280a845686e4c4e4:neofetch/README
 f:2b99c026d69726afcb16b871b5fbc745:neovim/.footprint
-f:6ee87092e3f761ddbeed93004e38016a:neovim/.md5sum
-f:61570b39d04b1edba5a85a5da61bdd0f:neovim/Pkgfile
+f:da6228e63bee8b3450c745bcfa44048d:neovim/.md5sum
+f:8629249d6a7de4a86846e1b4fc17cb41:neovim/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:nvidia-32/.32bit
 f:2f6a8a3fa2162352e089742854da9d0a:nvidia-32/.footprint
 f:f43cc1c1ccc7a10bec277f824e7451fe:nvidia-32/.md5sum
