@@ -62,6 +62,7 @@ d:tcc
 d:teamspeak
 d:telegram-cli
 d:terminibbles
+d:toilet
 d:transmission-remote-cli
 d:transset-df
 d:ttyload
@@ -289,6 +290,9 @@ f:f8c132572235d25b1cd2a87477185552:telegram-cli/Pkgfile
 f:f3a7d03657d084ca3c4ba4cdea10ded2:terminibbles/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:terminibbles/.md5sum
 f:5bcd96d0161d080d1410b8637f6e1ac4:terminibbles/Pkgfile
+f:1a827874548bae312307fad1ba1a2912:toilet/.footprint
+f:c986e6e3aeb5ffb0d2502a7b02f932c0:toilet/.md5sum
+f:07d6dd4ecab50e9aeb44f57e81be9a6d:toilet/Pkgfile
 f:6a8f79ed5feaacfdb8522e6041130564:transmission-remote-cli/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:transmission-remote-cli/.md5sum
 f:5e3ddfb946f742427564ddc71979d529:transmission-remote-cli/Pkgfile
