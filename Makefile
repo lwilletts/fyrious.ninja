@@ -4,7 +4,7 @@ SUBDIRS  = blog
 
 .PHONY: all check clean site ports media new build
 
-all: ports media site $(PAGES)
+all: site ports media $(PAGES)
 
 check:
 	@./check.sh
@@ -14,7 +14,6 @@ ports:
 
 media:
 	@./media.sh
-	@wendy -m 768 -f ./media ./media.sh &
 
 clean:
 	@echo "Cleaning: `pwd`"

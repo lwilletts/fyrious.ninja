@@ -37,14 +37,21 @@ EOF
 
 # generate html
 generate() {
-    sleep 1
+    sleep 2
 
     html
-    for dir in */; do
-        cd "$dir"
-        html
-        cd ../
-    done
+
+    test $(find $HTMLROOT/media -type d | wc -l) -gt 0 || {
+        for dir in */; do
+            cd "$dir"
+            html
+            cd ../
+        done
+    }
+
+    # type wendy 2>&1 > /dev/null && {
+    #     wendy -m 768 -f ./media ./media.sh &
+    # }
 }
 
 clean() {
