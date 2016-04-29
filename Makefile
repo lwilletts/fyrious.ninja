@@ -4,7 +4,7 @@ SUBDIRS  = blog
 
 .PHONY: all check clean site ports media new build
 
-all: site ports media $(PAGES)
+all: site $(PAGES) ports media
 
 check:
 	@./check.sh

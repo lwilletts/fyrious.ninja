@@ -1,30 +1,23 @@
-Welcome to my {personal} website. Enjoy your stay.
+### $ whois fyr
 
-    $ whois wildefyr
-
-I'm a twenty years old linux hobbyist. I like messing around with Linux
+I'm a twenty years old Linux hobbyist. I like messing around with Linux
 distributions and systems deployment. I'm quite proficient with shell
 scripting and use it whenever I can. This website for example is built with
 markdown, some simple shell scripts and Makefiles, without having to use any
-new-fangled framework that everyone else is using. Minimalism is best.
+new-tangled framework that everyone else is using. Minimalism is best.
 
-    $ contact | details
+### $ contact | details
 
-A query on IRC will get my attention the fastest usually:
+* [Rizon](https://www.rizon.net/chat) - #rice 
+* nixers - irc.iotek.org
+* [Freenode](http://webchat.freenode.net) - #crux
+* [me@fyrious.ninja](mailto:me@fyrious.ninja)
 
-* IRC: [Freenode](http://webchat.freenode.net), #crux, #6c37
-* Email: [me@wildefyr.net](mailto:me@wildefyr.com)
-* Telegram: [@wildefyr](https://telegram.me/wildefyr)
+### $ printf '%s\n' "cool stuff and people"
 
-I also have a teamspeak server available on this
-[domain](ts3server://wildefyr.net) that I may or may not be on depending on
-the time of day.
-
-    printf '%s\n' "cool stuff and people"
-
-* [crux.nu](https://crux.nu) - simple source linux distro
-* [nixers.net](http://nixers.net) - forum for \*nix lovers
-* [suckless](http://suckless.org) - why don't you suckless?
-* [z3bra.org](http://z3bra.org) - an inspiration to us all
+* [crux.nu](https://crux.nu) - simple source Linux distro
 * [xero.nu](http://xero.nu) - a cool vegan guy
 * [vypr.xyz](https://vypr.xyz) - hipster Esperanto fiend
+* [suckless](http://suckless.org) - why don't you suck-less?
+* [z3bra.org](http://z3bra.org) - an inspiration to us all
+* [nixers.net](http://nixers.net) - forum for \*nix lovers

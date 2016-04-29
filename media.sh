@@ -49,9 +49,9 @@ generate() {
         done
     }
 
-    # type wendy 2>&1 > /dev/null && {
-    #     wendy -m 768 -f ./media ./media.sh &
-    # }
+    type wendy 2>&1 > /dev/null && {
+        wendy -m 768 -f ./media ./media.sh &
+    }
 }
 
 clean() {
