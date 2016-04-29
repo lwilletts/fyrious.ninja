@@ -1,6 +1,6 @@
 #!/bin/bash
 
-uri="http://wildefyr.net"
+uri="https://fyrious.ninja"
 charset=utf-8
 doctype=Inline
 profile=css3

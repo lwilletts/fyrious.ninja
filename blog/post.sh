@@ -3,7 +3,7 @@
 # wildefyr && z3bra - 2016 (c) MIT
 # write a new post
 
-HTMLROOT="/builds/wildefyr.net"
+HTMLROOT="/builds/fyrious.ninja"
 cd "$HTMLROOT/blog"
 
 printf '%s' "Title of post: "; while read -r title; do

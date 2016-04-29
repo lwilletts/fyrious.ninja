@@ -12,13 +12,13 @@ EOF
 }
 
 test -z "$1" && usage 1 || FILE="$1"
-BASEURL="http://wildefyr.net"
+BASEURL="https://fyrious.ninja"
 
 cat > "feed.xml" << EOF
 <?xml version='1.0'?>
 <rss version='2.0' xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>wildefyr.net/blog</title>
+<title>fyrious.ninja/blog</title>
 <description>Musings on unix.</description>
 <link>${BASEURL}/blog</link>
 <atom:link href="${BASEURL}/blog/feed.xml" rel="self" />

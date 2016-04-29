@@ -1,3 +1,3 @@
-# wildefyr.net
+# fyrious.ninja
 
-Deployed using nginx on [wildefyr.net](http://wildefyr.net).
+Deployed using nginx on [fyrious.ninja](https://fyrious.ninja).

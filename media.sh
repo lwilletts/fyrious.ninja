@@ -3,7 +3,7 @@
 # wildefyr - 2016 (c) MIT
 # use wendy to generate html when needed
 
-HTMLROOT="/builds/wildefyr.net"
+HTMLROOT="/builds/fyrious.ninja"
 
 html() {
     cat 2> /dev/null > "index.html" << EOF
@@ -16,7 +16,7 @@ EOF
     ls -A -1 | while IFS= read -r file; do
         test "$file" = "index.html" && continue
 
-        date=$(du --time "$file" | awk '{print $2,$3}')
+        # date=$(du --time "$file" | awk '{print $2,$3}')
         size=$(du -hs "$file" | awk '{print $1}')
 
         test "$size" = "0" && size="-"

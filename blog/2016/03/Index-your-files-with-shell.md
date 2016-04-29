@@ -105,6 +105,6 @@ can finally say I generate all my HTML on my site with nothing but shell
 scripts!
 
 For reference, both the scripts and the Makefile is [available in my website
-git repository](https://github.com/Wildefyr/wildefyr.net).
+git repository](https://github.com/Wildefyr/fyrious.ninja).
 
 Happy hacking!
