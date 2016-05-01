@@ -50,6 +50,7 @@ d:nvidia
 d:openconnect
 d:opus-tools
 d:paper-icon-theme
+d:parted
 d:pip3
 d:psutil
 d:pytg
@@ -249,6 +250,9 @@ f:fe02e3de11f41561d4d95a96b99cbdc4:opus-tools/Pkgfile
 f:cd0f23503f7d7de778fc2eda6174e91d:paper-icon-theme/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:paper-icon-theme/.md5sum
 f:ed67c550262f29cd027207d47fd8d6f7:paper-icon-theme/Pkgfile
+f:992dcbb49e37178d114714b9585cc0cf:parted/.footprint
+f:28610ec6a61915ae42331555be07e97a:parted/.md5sum
+f:fcef5485119fef5ffeb1400fefd0b7ce:parted/Pkgfile
 f:59b49a45fc4c1646da387cfec09fa624:pip3/.footprint
 f:ac10150d98862bf95612efb30617bb1f:pip3/.md5sum
 f:008b50ac27806df86831f16ae76507a1:pip3/Pkgfile
