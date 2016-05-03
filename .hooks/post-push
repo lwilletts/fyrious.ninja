@@ -1,4 +1,4 @@
 #!/bin/sh
 
 printf '%s\n' "Rebuild deployment:"
-ssh server "cd /builds/fyrious.net && git pull && make build"
+ssh server "cd /builds/fyrious.ninja && git pull && make build"
