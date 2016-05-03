@@ -1,19 +1,19 @@
-### $ whois fyr
+### whoami
 
-I'm a twenty years old Linux hobbyist. I like messing around with Linux
-distributions and systems deployment. I'm quite proficient with shell
-scripting and use it whenever I can. This website for example is built with
-markdown, some simple shell scripts and Makefiles, without having to use any
-new-tangled framework that everyone else is using. Minimalism is best.
+Hey, I'm a twenty year old unix hobbyist. I enjoy messing around with unix
+distributions and systems deployment. I'm proficient with shell scripting,
+makefiles and some C. This website is currently built with markdown, some shell
+scripts and Makefiles, without using an overcomplicated framework. Minimalism is
+best.
 
-### $ contact | details
+### contact
 
 * [rizon](https://www.rizon.net/chat) - #rice 
 * [freenode](http://webchat.freenode.net) - #crux
-* irc.iotek.org - #nixers
+* irc.iotek.org - #unix
 * [me@fyrious.ninja](mailto:me@fyrious.ninja)
 
-### $ printf '%s\n' "cool stuff and people"
+### cool stuff and people
 
 * [crux.nu](https://crux.nu) - simple source Linux distro
 * [xero.nu](http://xero.nu) - a cool vegan guy
