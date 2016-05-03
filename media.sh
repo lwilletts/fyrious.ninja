@@ -41,7 +41,7 @@ generate() {
 
     html
 
-    test $(find $HTMLROOT/media -type d | wc -l) -gt 0 || {
+    test ! -z "$(find $HTMLROOT/media -type d | sed '1d')" || {
         for dir in */; do
             cd "$dir"
             html

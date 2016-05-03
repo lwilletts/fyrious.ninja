@@ -8,9 +8,9 @@ new-tangled framework that everyone else is using. Minimalism is best.
 
 ### $ contact | details
 
-* [Rizon](https://www.rizon.net/chat) - #rice 
-* nixers - irc.iotek.org
-* [Freenode](http://webchat.freenode.net) - #crux
+* [rizon](https://www.rizon.net/chat) - #rice 
+* [freenode](http://webchat.freenode.net) - #crux
+* irc.iotek.org - #nixers
 * [me@fyrious.ninja](mailto:me@fyrious.ninja)
 
 ### $ printf '%s\n' "cool stuff and people"
