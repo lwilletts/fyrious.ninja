@@ -16,7 +16,7 @@ best.
 ### cool stuff and people
 
 * [crux.nu](https://crux.nu) - simple source Linux distro
-* [xero.nu](http://xero.nu) - a cool vegan guy
+* [xero.nu](http://xero.nu) - a cool unix guy
 * [vypr.xyz](https://vypr.xyz) - hipster Esperanto fiend
 * [suckless](http://suckless.org) - why don't you suck-less?
 * [z3bra.org](http://z3bra.org) - an inspiration to us all
